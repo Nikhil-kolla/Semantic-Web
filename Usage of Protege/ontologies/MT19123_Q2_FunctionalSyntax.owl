@@ -1,0 +1,408 @@
+Prefix(:=<http://www.semanticweb.org/ass3/Q2/>)
+Prefix(Q2:=<http://www.semanticweb.org/ass3/Q2/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ass3/Q2/>
+
+Declaration(Class(Q2:BasketballTeam))
+Declaration(Class(Q2:ChampionshipTour))
+Declaration(Class(Q2:DebutTeam))
+Declaration(Class(Q2:FootballTeam))
+Declaration(Class(Q2:Footballer))
+Declaration(Class(Q2:InterestingTournament))
+Declaration(Class(Q2:KnownSportGame))
+Declaration(Class(Q2:Master))
+Declaration(Class(Q2:MultisportTeam))
+Declaration(Class(Q2:Person))
+Declaration(Class(Q2:PopularSport))
+Declaration(Class(Q2:RugbyTeam))
+Declaration(Class(Q2:SmallSportEvent))
+Declaration(Class(Q2:SportGame))
+Declaration(Class(Q2:Sportsman))
+Declaration(Class(Q2:StrongAthlete))
+Declaration(Class(Q2:Team))
+Declaration(Class(Q2:TeamMember))
+Declaration(Class(Q2:TeamSport))
+Declaration(Class(Q2:Tournament))
+Declaration(Class(Q2:Trainer))
+Declaration(Class(Q2:VolleyballTeam))
+Declaration(ObjectProperty(Q2:belongsTo))
+Declaration(ObjectProperty(Q2:consistsOf))
+Declaration(ObjectProperty(Q2:hasWinner))
+Declaration(ObjectProperty(Q2:includes))
+Declaration(ObjectProperty(Q2:isPlayedAt))
+Declaration(ObjectProperty(Q2:isPlayedBy))
+Declaration(ObjectProperty(Q2:isWinnerOf))
+Declaration(ObjectProperty(Q2:organizedBy))
+Declaration(ObjectProperty(Q2:organizes))
+Declaration(ObjectProperty(Q2:participatesIn))
+Declaration(ObjectProperty(Q2:plays))
+Declaration(ObjectProperty(Q2:playsFor))
+Declaration(ObjectProperty(Q2:responsibleFor))
+Declaration(ObjectProperty(Q2:takesPartIn))
+Declaration(NamedIndividual(Q2:B))
+Declaration(NamedIndividual(Q2:BOct))
+Declaration(NamedIndividual(Q2:BOct1))
+Declaration(NamedIndividual(Q2:BOct2))
+Declaration(NamedIndividual(Q2:BV))
+Declaration(NamedIndividual(Q2:BVNov))
+Declaration(NamedIndividual(Q2:BVNov1))
+Declaration(NamedIndividual(Q2:BVOct))
+Declaration(NamedIndividual(Q2:BVOct1))
+Declaration(NamedIndividual(Q2:BVOct2))
+Declaration(NamedIndividual(Q2:Bob))
+Declaration(NamedIndividual(Q2:FR))
+Declaration(NamedIndividual(Q2:FROct))
+Declaration(NamedIndividual(Q2:FROct1))
+Declaration(NamedIndividual(Q2:Kate))
+Declaration(NamedIndividual(Q2:Mary))
+Declaration(NamedIndividual(Q2:SportGame1))
+Declaration(NamedIndividual(Q2:SportGame2))
+Declaration(NamedIndividual(Q2:SportGame3))
+Declaration(NamedIndividual(Q2:SportGame4))
+Declaration(NamedIndividual(Q2:SportGame5))
+Declaration(NamedIndividual(Q2:SportGame6))
+Declaration(NamedIndividual(Q2:Tim))
+Declaration(NamedIndividual(Q2:basketball))
+Declaration(NamedIndividual(Q2:football))
+Declaration(NamedIndividual(Q2:rugby))
+Declaration(NamedIndividual(Q2:volleyball))
+############################
+#   Object Properties
+############################
+
+# Object Property: Q2:belongsTo (Q2:belongsTo)
+
+InverseObjectProperties(Q2:belongsTo Q2:consistsOf)
+ObjectPropertyDomain(Q2:belongsTo Q2:Tournament)
+ObjectPropertyRange(Q2:belongsTo Q2:ChampionshipTour)
+
+# Object Property: Q2:consistsOf (Q2:consistsOf)
+
+TransitiveObjectProperty(Q2:consistsOf)
+ObjectPropertyDomain(Q2:consistsOf Q2:ChampionshipTour)
+ObjectPropertyRange(Q2:consistsOf Q2:Tournament)
+
+# Object Property: Q2:hasWinner (Q2:hasWinner)
+
+InverseObjectProperties(Q2:hasWinner Q2:isWinnerOf)
+FunctionalObjectProperty(Q2:hasWinner)
+ObjectPropertyDomain(Q2:hasWinner Q2:Tournament)
+ObjectPropertyRange(Q2:hasWinner Q2:Team)
+
+# Object Property: Q2:includes (Q2:includes)
+
+InverseObjectProperties(Q2:includes Q2:isPlayedAt)
+ObjectPropertyDomain(Q2:includes Q2:Tournament)
+ObjectPropertyRange(Q2:includes Q2:SportGame)
+
+# Object Property: Q2:isPlayedAt (Q2:isPlayedAt)
+
+ObjectPropertyDomain(Q2:isPlayedAt Q2:SportGame)
+ObjectPropertyRange(Q2:isPlayedAt Q2:Tournament)
+
+# Object Property: Q2:isPlayedBy (Q2:isPlayedBy)
+
+InverseObjectProperties(Q2:isPlayedBy Q2:plays)
+ObjectPropertyDomain(Q2:isPlayedBy Q2:SportGame)
+ObjectPropertyRange(Q2:isPlayedBy Q2:Person)
+ObjectPropertyRange(Q2:isPlayedBy Q2:Team)
+
+# Object Property: Q2:isWinnerOf (Q2:isWinnerOf)
+
+ObjectPropertyDomain(Q2:isWinnerOf Q2:Team)
+ObjectPropertyRange(Q2:isWinnerOf Q2:Tournament)
+
+# Object Property: Q2:organizedBy (Q2:organizedBy)
+
+InverseObjectProperties(Q2:organizedBy Q2:organizes)
+ObjectPropertyDomain(Q2:organizedBy Q2:ChampionshipTour)
+ObjectPropertyRange(Q2:organizedBy Q2:Team)
+
+# Object Property: Q2:organizes (Q2:organizes)
+
+ObjectPropertyDomain(Q2:organizes Q2:Team)
+ObjectPropertyRange(Q2:organizes Q2:ChampionshipTour)
+
+# Object Property: Q2:participatesIn (Q2:participatesIn)
+
+ObjectPropertyDomain(Q2:participatesIn Q2:Team)
+ObjectPropertyRange(Q2:participatesIn Q2:Tournament)
+
+# Object Property: Q2:plays (Q2:plays)
+
+ObjectPropertyDomain(Q2:plays Q2:Person)
+ObjectPropertyDomain(Q2:plays Q2:Team)
+ObjectPropertyRange(Q2:plays Q2:SportGame)
+
+# Object Property: Q2:playsFor (Q2:playsFor)
+
+ObjectPropertyDomain(Q2:playsFor Q2:Person)
+ObjectPropertyRange(Q2:playsFor Q2:Team)
+
+# Object Property: Q2:responsibleFor (Q2:responsibleFor)
+
+ObjectPropertyDomain(Q2:responsibleFor Q2:Person)
+ObjectPropertyDomain(Q2:responsibleFor Q2:Trainer)
+ObjectPropertyRange(Q2:responsibleFor Q2:Team)
+
+# Object Property: Q2:takesPartIn (Q2:takesPartIn)
+
+ObjectPropertyDomain(Q2:takesPartIn Q2:Team)
+ObjectPropertyRange(Q2:takesPartIn Q2:ChampionshipTour)
+ObjectPropertyRange(Q2:takesPartIn Q2:Tournament)
+
+
+############################
+#   Classes
+############################
+
+# Class: Q2:BasketballTeam (Q2:BasketballTeam)
+
+SubClassOf(Q2:BasketballTeam Q2:Team)
+
+# Class: Q2:ChampionshipTour (Q2:ChampionshipTour)
+
+SubClassOf(Q2:ChampionshipTour ObjectSomeValuesFrom(Q2:organizedBy Q2:Team))
+SubClassOf(Q2:ChampionshipTour ObjectMinCardinality(1 Q2:consistsOf Q2:Tournament))
+
+# Class: Q2:DebutTeam (Q2:DebutTeam)
+
+SubClassOf(Q2:DebutTeam Q2:Team)
+
+# Class: Q2:FootballTeam (Q2:FootballTeam)
+
+SubClassOf(Q2:FootballTeam Q2:Team)
+
+# Class: Q2:Footballer (Q2:Footballer)
+
+SubClassOf(Q2:Footballer Q2:Person)
+SubClassOf(Q2:Footballer ObjectSomeValuesFrom(Q2:playsFor Q2:FootballTeam))
+
+# Class: Q2:InterestingTournament (Q2:InterestingTournament)
+
+SubClassOf(Q2:InterestingTournament Q2:Tournament)
+SubClassOf(Q2:InterestingTournament ObjectAllValuesFrom(Q2:hasWinner Q2:DebutTeam))
+
+# Class: Q2:KnownSportGame (Q2:KnownSportGame)
+
+SubClassOf(Q2:KnownSportGame Q2:SportGame)
+
+# Class: Q2:Master (Q2:Master)
+
+SubClassOf(Q2:Master Q2:Person)
+SubClassOf(Q2:Master ObjectIntersectionOf(Q2:Sportsman Q2:Trainer))
+
+# Class: Q2:MultisportTeam (Q2:MultisportTeam)
+
+SubClassOf(Q2:MultisportTeam Q2:Team)
+SubClassOf(Q2:MultisportTeam ObjectMinCardinality(2 Q2:plays Q2:KnownSportGame))
+
+# Class: Q2:PopularSport (Q2:PopularSport)
+
+SubClassOf(Q2:PopularSport Q2:SportGame)
+SubClassOf(Q2:PopularSport ObjectMinCardinality(2 Q2:isPlayedAt Q2:Tournament))
+
+# Class: Q2:RugbyTeam (Q2:RugbyTeam)
+
+SubClassOf(Q2:RugbyTeam Q2:Team)
+
+# Class: Q2:SmallSportEvent (Q2:SmallSportEvent)
+
+SubClassOf(Q2:SmallSportEvent Q2:Tournament)
+SubClassOf(Q2:SmallSportEvent ObjectMaxCardinality(2 Q2:includes Q2:SportGame))
+
+# Class: Q2:SportGame (Q2:SportGame)
+
+SubClassOf(Q2:SportGame ObjectSomeValuesFrom(Q2:isPlayedAt Q2:Tournament))
+
+# Class: Q2:Sportsman (Q2:Sportsman)
+
+SubClassOf(Q2:Sportsman Q2:Person)
+SubClassOf(Q2:Sportsman ObjectSomeValuesFrom(Q2:plays Q2:SportGame))
+
+# Class: Q2:StrongAthlete (Q2:StrongAthlete)
+
+SubClassOf(Q2:StrongAthlete Q2:Sportsman)
+SubClassOf(Q2:StrongAthlete ObjectUnionOf(Q2:TeamMember ObjectMinCardinality(3 Q2:plays Q2:SportGame)))
+
+# Class: Q2:Team (Q2:Team)
+
+SubClassOf(Q2:Team ObjectSomeValuesFrom(Q2:takesPartIn Q2:ChampionshipTour))
+
+# Class: Q2:TeamMember (Q2:TeamMember)
+
+SubClassOf(Q2:TeamMember Q2:Sportsman)
+SubClassOf(Q2:TeamMember ObjectSomeValuesFrom(Q2:playsFor Q2:Team))
+
+# Class: Q2:TeamSport (Q2:TeamSport)
+
+SubClassOf(Q2:TeamSport Q2:SportGame)
+SubClassOf(Q2:TeamSport ObjectSomeValuesFrom(Q2:hasWinner Q2:Team))
+
+# Class: Q2:Tournament (Q2:Tournament)
+
+SubClassOf(Q2:Tournament ObjectSomeValuesFrom(Q2:belongsTo Q2:ChampionshipTour))
+
+# Class: Q2:Trainer (Q2:Trainer)
+
+SubClassOf(Q2:Trainer Q2:Person)
+SubClassOf(Q2:Trainer ObjectSomeValuesFrom(Q2:responsibleFor Q2:Team))
+
+# Class: Q2:VolleyballTeam (Q2:VolleyballTeam)
+
+SubClassOf(Q2:VolleyballTeam Q2:Team)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: Q2:B (Q2:B)
+
+ClassAssertion(Q2:BasketballTeam Q2:B)
+ClassAssertion(Q2:DebutTeam Q2:B)
+ObjectPropertyAssertion(Q2:participatesIn Q2:B Q2:BOct)
+
+# Individual: Q2:BOct (Q2:BOct)
+
+ClassAssertion(Q2:ChampionshipTour Q2:BOct)
+ObjectPropertyAssertion(Q2:consistsOf Q2:BOct Q2:BOct1)
+ObjectPropertyAssertion(Q2:consistsOf Q2:BOct Q2:BOct2)
+
+# Individual: Q2:BOct1 (Q2:BOct1)
+
+ClassAssertion(Q2:Tournament Q2:BOct1)
+ObjectPropertyAssertion(Q2:hasWinner Q2:BOct1 Q2:B)
+
+# Individual: Q2:BOct2 (Q2:BOct2)
+
+ClassAssertion(Q2:Tournament Q2:BOct2)
+
+# Individual: Q2:BV (Q2:BV)
+
+ClassAssertion(Q2:BasketballTeam Q2:BV)
+ClassAssertion(Q2:VolleyballTeam Q2:BV)
+ObjectPropertyAssertion(Q2:participatesIn Q2:BV Q2:BVNov)
+ObjectPropertyAssertion(Q2:participatesIn Q2:BV Q2:BVOct)
+
+# Individual: Q2:BVNov (Q2:BVNov)
+
+ClassAssertion(Q2:ChampionshipTour Q2:BVNov)
+ObjectPropertyAssertion(Q2:consistsOf Q2:BVNov Q2:BVNov1)
+
+# Individual: Q2:BVNov1 (Q2:BVNov1)
+
+ClassAssertion(Q2:Tournament Q2:BVNov1)
+
+# Individual: Q2:BVOct (Q2:BVOct)
+
+ClassAssertion(Q2:ChampionshipTour Q2:BVOct)
+ObjectPropertyAssertion(Q2:consistsOf Q2:BVOct Q2:BVOct1)
+ObjectPropertyAssertion(Q2:consistsOf Q2:BVOct Q2:BVOct2)
+
+# Individual: Q2:BVOct1 (Q2:BVOct1)
+
+ClassAssertion(Q2:Tournament Q2:BVOct1)
+ObjectPropertyAssertion(Q2:hasWinner Q2:BVOct1 Q2:BV)
+
+# Individual: Q2:BVOct2 (Q2:BVOct2)
+
+ClassAssertion(Q2:Tournament Q2:BVOct2)
+
+# Individual: Q2:Bob (Q2:Bob)
+
+ClassAssertion(Q2:Sportsman Q2:Bob)
+ObjectPropertyAssertion(Q2:plays Q2:Bob Q2:SportGame1)
+
+# Individual: Q2:FR (Q2:FR)
+
+ClassAssertion(Q2:FootballTeam Q2:FR)
+ClassAssertion(Q2:RugbyTeam Q2:FR)
+ObjectPropertyAssertion(Q2:takesPartIn Q2:FR Q2:FROct)
+
+# Individual: Q2:FROct (Q2:FROct)
+
+ClassAssertion(Q2:ChampionshipTour Q2:FROct)
+ObjectPropertyAssertion(Q2:consistsOf Q2:FROct Q2:FROct1)
+
+# Individual: Q2:FROct1 (Q2:FROct1)
+
+ClassAssertion(Q2:Tournament Q2:FROct1)
+
+# Individual: Q2:Kate (Q2:Kate)
+
+ClassAssertion(Q2:Sportsman Q2:Kate)
+ObjectPropertyAssertion(Q2:plays Q2:Kate Q2:SportGame2)
+ObjectPropertyAssertion(Q2:plays Q2:Kate Q2:SportGame3)
+ObjectPropertyAssertion(Q2:plays Q2:Kate Q2:SportGame4)
+ObjectPropertyAssertion(Q2:responsibleFor Q2:Kate Q2:FR)
+
+# Individual: Q2:Mary (Q2:Mary)
+
+ClassAssertion(Q2:Person Q2:Mary)
+ObjectPropertyAssertion(Q2:responsibleFor Q2:Mary Q2:BV)
+
+# Individual: Q2:SportGame1 (Q2:SportGame1)
+
+ClassAssertion(Q2:SportGame Q2:SportGame1)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame1 Q2:BVNov1)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame1 Q2:BVOct1)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame1 Q2:BVOct2)
+
+# Individual: Q2:SportGame2 (Q2:SportGame2)
+
+ClassAssertion(Q2:SportGame Q2:SportGame2)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame2 Q2:BVNov1)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame2 Q2:BVOct2)
+
+# Individual: Q2:SportGame3 (Q2:SportGame3)
+
+ClassAssertion(Q2:SportGame Q2:SportGame3)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame3 Q2:FROct1)
+
+# Individual: Q2:SportGame4 (Q2:SportGame4)
+
+ClassAssertion(Q2:SportGame Q2:SportGame4)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame4 Q2:BOct2)
+
+# Individual: Q2:SportGame5 (Q2:SportGame5)
+
+ClassAssertion(Q2:SportGame Q2:SportGame5)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame5 Q2:BOct1)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame5 Q2:BOct2)
+
+# Individual: Q2:SportGame6 (Q2:SportGame6)
+
+ClassAssertion(Q2:SportGame Q2:SportGame6)
+ObjectPropertyAssertion(Q2:isPlayedAt Q2:SportGame6 Q2:FROct1)
+
+# Individual: Q2:Tim (Q2:Tim)
+
+ClassAssertion(Q2:Sportsman Q2:Tim)
+ObjectPropertyAssertion(Q2:plays Q2:Tim Q2:SportGame5)
+ObjectPropertyAssertion(Q2:plays Q2:Tim Q2:SportGame6)
+
+# Individual: Q2:basketball (Q2:basketball)
+
+ClassAssertion(Q2:KnownSportGame Q2:basketball)
+
+# Individual: Q2:football (Q2:football)
+
+ClassAssertion(Q2:KnownSportGame Q2:football)
+
+# Individual: Q2:rugby (Q2:rugby)
+
+ClassAssertion(Q2:KnownSportGame Q2:rugby)
+
+# Individual: Q2:volleyball (Q2:volleyball)
+
+ClassAssertion(Q2:KnownSportGame Q2:volleyball)
+
+
+)

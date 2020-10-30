@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ass3/Q2/"
+     xml:base="http://www.semanticweb.org/ass3/Q2/"
+     xmlns:Q2="http://www.semanticweb.org/ass3/Q2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ass3/Q2/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/belongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ass3/Q2/consistsOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/consistsOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/consistsOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/hasWinner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/hasWinner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ass3/Q2/isWinnerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/includes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ass3/Q2/isPlayedAt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/isPlayedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/isPlayedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/isPlayedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/isPlayedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ass3/Q2/plays"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/isWinnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/isWinnerOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/organizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/organizedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ass3/Q2/organizes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/organizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/organizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/participatesIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/participatesIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/plays -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/plays">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/playsFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/playsFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/responsibleFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/responsibleFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Trainer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/takesPartIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ass3/Q2/takesPartIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BasketballTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/BasketballTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/ChampionshipTour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/ChampionshipTour">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/organizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/consistsOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/DebutTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/DebutTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/FootballTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/FootballTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Footballer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Footballer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/playsFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/FootballTeam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/InterestingTournament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/InterestingTournament">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/hasWinner"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/DebutTeam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/KnownSportGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/KnownSportGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Master -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Master">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ass3/Q2/Sportsman"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ass3/Q2/Trainer"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/MultisportTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/MultisportTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/plays"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ass3/Q2/KnownSportGame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/PopularSport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/PopularSport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/isPlayedAt"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/RugbyTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/RugbyTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SmallSportEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/SmallSportEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/includes"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/isPlayedAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Sportsman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Sportsman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/plays"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/StrongAthlete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/StrongAthlete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Sportsman"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ass3/Q2/TeamMember"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/plays"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Team">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/takesPartIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/TeamMember -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/TeamMember">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Sportsman"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/playsFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/TeamSport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/TeamSport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/hasWinner"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Tournament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Tournament">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/belongsTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Trainer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/Trainer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ass3/Q2/responsibleFor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/VolleyballTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ass3/Q2/VolleyballTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ass3/Q2/Team"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/BasketballTeam"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/DebutTeam"/>
+        <participatesIn rdf:resource="http://www.semanticweb.org/ass3/Q2/BOct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BOct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BOct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/ass3/Q2/BOct1"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/ass3/Q2/BOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BOct1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BOct1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <hasWinner rdf:resource="http://www.semanticweb.org/ass3/Q2/B"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BOct2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BOct2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/BasketballTeam"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/VolleyballTeam"/>
+        <participatesIn rdf:resource="http://www.semanticweb.org/ass3/Q2/BVNov"/>
+        <participatesIn rdf:resource="http://www.semanticweb.org/ass3/Q2/BVOct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BVNov -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BVNov">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/ass3/Q2/BVNov1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BVNov1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BVNov1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BVOct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BVOct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/ass3/Q2/BVOct1"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/ass3/Q2/BVOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BVOct1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BVOct1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+        <hasWinner rdf:resource="http://www.semanticweb.org/ass3/Q2/BV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/BVOct2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/BVOct2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Bob -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/Bob">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Sportsman"/>
+        <plays rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/FR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/FR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/FootballTeam"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/RugbyTeam"/>
+        <takesPartIn rdf:resource="http://www.semanticweb.org/ass3/Q2/FROct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/FROct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/FROct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/ChampionshipTour"/>
+        <consistsOf rdf:resource="http://www.semanticweb.org/ass3/Q2/FROct1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/FROct1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/FROct1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Tournament"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Kate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/Kate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Sportsman"/>
+        <plays rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame2"/>
+        <plays rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame3"/>
+        <plays rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame4"/>
+        <responsibleFor rdf:resource="http://www.semanticweb.org/ass3/Q2/FR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Mary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/Mary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Person"/>
+        <responsibleFor rdf:resource="http://www.semanticweb.org/ass3/Q2/BV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BVNov1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BVOct1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BVOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BVNov1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BVOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/FROct1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BOct1"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/BOct2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/SportGame6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/SportGame6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame"/>
+        <isPlayedAt rdf:resource="http://www.semanticweb.org/ass3/Q2/FROct1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/Tim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/Tim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/Sportsman"/>
+        <plays rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame5"/>
+        <plays rdf:resource="http://www.semanticweb.org/ass3/Q2/SportGame6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/basketball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/basketball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/KnownSportGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/football -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/football">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/KnownSportGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/rugby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/rugby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/KnownSportGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ass3/Q2/volleyball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ass3/Q2/volleyball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ass3/Q2/KnownSportGame"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
