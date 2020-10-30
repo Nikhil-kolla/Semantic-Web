@@ -17,3 +17,7 @@ Protege
 SPARQL
 * SPARQL queries
 * Conversion of CSV file to RDF Triples
+
+SHACL
+* Validation using SHACL constraints
+* Triple stores and Property graphs
