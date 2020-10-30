@@ -13,3 +13,7 @@ Protege
 * Usage of Protege
 * Ontologies
 * OWL API
+
+SPARQL
+* SPARQL queries
+* Conversion of CSV file to RDF Triples
