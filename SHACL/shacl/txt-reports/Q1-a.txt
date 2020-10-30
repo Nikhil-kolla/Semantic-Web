@@ -1,0 +1,23 @@
+The constraint is to check whether every movie is having atleast one
+director and released in atleast one country.
+
+1) Also included messages in constraints to understand which constraint 
+	it violating.
+2) As the severity is not mentioned explicitly, it is taking as Violation
+   which is the default one.
+3) There are two types of movies here, One is from class 'movie' and the 
+	other is from class 'TV show'.
+4) As we have to check on every instance of movie and TV show, it is better 
+	to apply constraints on the class rather than instances. So, our target 
+	classes become class movie and class TV show.
+5) For checking the constraint of having atleast one director, the path is to 
+	be the Director property path and we use sh:minCount to check the minimum
+	occurences of Director object.
+6) For checking the constraint of releasing in atleast one country,the path is
+	to be the Release country property path and we use sh:minCount to check the 
+	minimum occurences of Country object.
+7)	There are totally 47 results which are violating the constraints. As both 
+	the constraints are placed separtely, for every instance of target class 
+	checks for both the constraints. In every violation result, along with the
+	focus instance node (which mean the title of movie or TV show), the message
+	included in the constraints also gets printed.

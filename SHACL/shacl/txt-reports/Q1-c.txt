@@ -1,0 +1,11 @@
+The constraint asked is about to check the title contains only
+alphanumeric characters and space.
+
+1) As we have to check all the titles, we have to check on class 
+   rather than instances.
+2) The focus node is title.
+3) sh:pattern is used to specify the regular expression we need.
+	"^[A-Za-z0-9? ]+$"
+	In this regex, the space after question mark allows, space in 
+	the title.
+4) sh:flags has many options. "i" defines to ignore case check.

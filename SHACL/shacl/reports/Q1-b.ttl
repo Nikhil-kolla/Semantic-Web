@@ -1,0 +1,135 @@
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Kill Me If You Dare ;
+	sh:value Netflix:Kill Me If You Dare ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Man Up ;
+	sh:value Netflix:Man Up ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:I Fine... Thank You... Love You ;
+	sh:value Netflix:I Fine... Thank You... Love You ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Care of Kancharapalem ;
+	sh:value Netflix:Care of Kancharapalem ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Watchman ;
+	sh:value Netflix:Watchman ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:ATM ;
+	sh:value Netflix:ATM ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:#realityhigh ;
+	sh:value Netflix:#realityhigh ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Carrie Pilby ;
+	sh:value Netflix:Carrie Pilby ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Suckseed ;
+	sh:value Netflix:Suckseed ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Sierra Burgess Is A Loser ;
+	sh:value Netflix:Sierra Burgess Is A Loser ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Single ;
+	sh:value Netflix:Single ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Manhattan Romance ;
+	sh:value Netflix:Manhattan Romance ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:PK ;
+	sh:value Netflix:PK ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Bangkok Traffic (Love) Story ;
+	sh:value Netflix:Bangkok Traffic (Love) Story ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NotConstraintComponent ;
+	sh:sourceShape Netflix:Moviegenre ;
+	sh:focusNode Netflix:Ee Nagaraniki Emaindi ;
+	sh:value Netflix:Ee Nagaraniki Emaindi ;
+	sh:resultMessage "Value does have shape Blank node _:n6927" ;
+] .

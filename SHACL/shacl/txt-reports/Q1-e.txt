@@ -1,0 +1,17 @@
+The question to demonstarte the usage of sh:closed and
+sh:ignoredProperties.
+
+1) While writing the constraints graph, apart from the 
+   properties on which we have applies constraints, if we do
+   not need anymore new properties,
+   We have to make sh:closed as TRUE which accepts a boolean 
+   value, this indicates that the properties are restricted.
+
+   To mention other properties which are allowed, we have to
+   give their types in sh:ignoredProperties list with space 
+   seperation.
+
+   Here I have mentioned class Movie and class TV Show in the
+   sh:ignoredProperties list. So, that other than the properties 
+   of those types, all the properties of all the movies and 
+   TV shows will be shown in validation report as violating.

@@ -1,0 +1,4 @@
+1) rdf:type gives which class it belongs to.
+   sh:nodeKind is used to check what kind of node it is
+   and sh:IRI is the built in one given by shacl which can 
+   be used to check an IRI.

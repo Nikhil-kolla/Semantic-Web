@@ -1,0 +1,423 @@
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Kill Me If You Dare ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Part II ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Part II ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Comics of India ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Care of Kancharapalem ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Best Friends Forever ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Out of Thin Air ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:TUNA GIRL ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:JoaquÃ­n Reyes: Una y no mÃ¡s ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Battle of Wits ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Oversmartness Never Pays ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Jandino: Whatever it Takes ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: The Greatest Trick ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:American Factory: A Conversation with the Obamas ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:American Factory: A Conversation with the Obamas ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:The Royal House of Windsor ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:The Seventies ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Transformers Prime ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Satu Hari ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Satu Hari ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:We Bare Bears ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Apaches ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:No Tomorrow ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Frequency ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Paul Hollywood's Big Continental Road Trip ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Castle of Stars ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Castle of Stars ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:The Spy ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Archibald's Next Big Thing ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Archibald's Next Big Thing ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:The Nineties ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Made in Mexico ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Adam Ruins Everything ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Ben 10 ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Lovesick ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Lovesick ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:First and Last ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:First and Last ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Transformers: Robots in Disguise ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Fire Chasers ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:The Eighties ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Mak Cun ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n244 ;
+	sh:focusNode Netflix:Mak Cun ;
+	sh:resultPath Netflix:country ;
+	sh:resultMessage "Not released in single country"@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode Netflix:Christiane Amanpour: Sex & Love Around the World ;
+	sh:resultPath Netflix:hasDirector ;
+	sh:resultMessage "Does not have a single director"@en ;
+] .

@@ -1,0 +1,270 @@
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Part II ;
+	sh:value "Krish Trish and Baltiboy: Part II" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:I Fine... Thank You... Love You ;
+	sh:value "I Fine... Thank You... Love You" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Norm of the North: King Sized Adventure ;
+	sh:value "Norm of the North: King Sized Adventure" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Bobby Sands: 66 Days ;
+	sh:value "Bobby Sands: 66 Days" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Comics of India ;
+	sh:value "Krish Trish and Baltiboy: Comics of India" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:CÃ©zanne et moi ;
+	sh:value "CÃ©zanne et moi" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Best Friends Forever ;
+	sh:value "Krish Trish and Baltiboy: Best Friends Forever" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Marc Maron: Too Real ;
+	sh:value "Marc Maron: Too Real" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Fabrizio Copano: Solo pienso en mi ;
+	sh:value "Fabrizio Copano: Solo pienso en mi" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:#realityhigh ;
+	sh:value "#realityhigh" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:JoaquÃ­n Reyes: Una y no mÃ¡s ;
+	sh:value "JoaquÃ­n Reyes: Una y no mÃ¡s" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Battle of Wits ;
+	sh:value "Krish Trish and Baltiboy: Battle of Wits" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: Oversmartness Never Pays ;
+	sh:value "Krish Trish and Baltiboy: Oversmartness Never Pays" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Jandino: Whatever it Takes ;
+	sh:value "Jandino: Whatever it Takes" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Monster High: Boo York, Boo York ;
+	sh:value "Monster High: Boo York, Boo York" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Gerald's Game ;
+	sh:value "Gerald's Game" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna ;
+	sh:value "Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Mo Gilligan: Momentum ;
+	sh:value "Mo Gilligan: Momentum" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Bangkok Traffic (Love) Story ;
+	sh:value "Bangkok Traffic (Love) Story" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Krish Trish and Baltiboy: The Greatest Trick ;
+	sh:value "Krish Trish and Baltiboy: The Greatest Trick" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Kidnapping Mr. Heineken ;
+	sh:value "Kidnapping Mr. Heineken" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:American Factory: A Conversation with the Obamas ;
+	sh:value "American Factory: A Conversation with the Obamas" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Lessons from a School Shooting: Notes from Dunblane ;
+	sh:value "Lessons from a School Shooting: Notes from Dunblane" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Paul Hollywood's Big Continental Road Trip ;
+	sh:value "Paul Hollywood's Big Continental Road Trip" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Archibald's Next Big Thing ;
+	sh:value "Archibald's Next Big Thing" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Transformers: Robots in Disguise ;
+	sh:value "Transformers: Robots in Disguise" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:PatternConstraintComponent ;
+	sh:sourceShape _:n2157 ;
+	sh:focusNode Netflix:Christiane Amanpour: Sex & Love Around the World ;
+	sh:value "Christiane Amanpour: Sex & Love Around the World" ;
+	sh:resultPath Netflix:title ;
+	sh:resultMessage "Value does not match pattern "^[A-Za-z0-9? ]+$"" ;
+] .

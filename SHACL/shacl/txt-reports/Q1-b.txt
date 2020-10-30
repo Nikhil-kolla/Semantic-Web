@@ -1,0 +1,12 @@
+the question is to check that no movie must not be belong to 
+both comedy and romance genre.
+
+1) sh:not can be used to inverse the behaviour what we intended 
+   to do.
+
+   Placing sh:Property inside sh:not, this sh:property checks 
+   for genere comedy and romance. sh:not places a constraint
+   that no movie has to be both comedy and romance.
+
+   The validation report is empty because, there are no movies 
+   violating this constraints.
