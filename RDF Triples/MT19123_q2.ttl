@@ -1,0 +1,41 @@
+Q2)
+
+	@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+	@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>. 
+	@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+	@prefix	person: <http://www.iiitd.ac.in/person/>.
+	@prefix	prop: <http://www.iiitd.ac.in/property/>.
+	@prefix	eg: <http://www.iiitd.ac.in/example/>.
+
+	//Container of type "Seq" is used because Mary likes the
+	//items in a particular order.
+	person:Mary prop:likes [
+			rdf:type rdf:Seq ;
+			rdf:_1 <MixedFruitJuice> ;
+			rdf:_2 <OrangeJuice> ;
+			rdf:_3 <AppleJuice> ;
+		] .
+	
+	//Container of type "Alt" is used when we have to select only 
+	//one among the given entities.(or things).
+	//As Mary prefers only one among these items, we have used 
+	//"Alt" here.
+	eg:duringFruitMeal prop:prefers [
+			rdf:type rdf:Alt ;
+			rdf:_1 <Orange> ;
+			rdf:_2 <Apple> ;
+			rdf:_3 <Pineapple> ;
+		] .
+	
+	//Container of type "Bag" is used when the order of the items 
+	//is not important.
+	//As the MixedFruitJuice can be prepared by adding the mentioned
+	//fruits in any order, we can use "Bag" container here.
+	eg:mixedFruitJuice prop:isMadeOf [
+			rdf:type rdf:Bag ;
+			rdf:_1 <Oranges> ;
+			rdf:_2 <Apple> ;
+			rdf:_3 <Papaya> ;
+			rdf:_4 <Banana> ;
+		].
+		

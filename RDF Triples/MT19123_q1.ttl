@@ -1,0 +1,81 @@
+Q1)
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>. 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix	iiitd-sweb: <http://www.iiitd.ac.in/course/sweb/>.
+@prefix	assign: <http://www.iiitd.ac.in/course/sweb/assign/>.
+@prefix	assignO: <http://www.iiitd.ac.in/course/sweb/assignO/>.
+@prefix	eg: <http://www.iiitd.ac.in/example/>.
+@prefix schemaorg: <http://schema.org/>. 
+
+(a)
+	assign:juiceMadeOfFruit rdf:type rdf:Property .
+	assign:juiceMadeOfFruit	rdfs:domain assign:FruitJuice .
+	assign:juiceMadeOfFruit	rdfs:range schemaorg:Fruit .
+
+(b)
+	assign:Fruit rdf:type rdfs:Class .
+	assign:apple rdf:type assign:Fruit .
+
+(c)
+	assign:juiceMadeOf rdf:type rdf:Property .
+	assign:juiceMadeOfFruit rdf:type rdf:Property .
+	assign:juiceMadeOfFruit rdfs:subPropertyOf assign:juiceMadeOf .
+
+(d) //Container of type "bag" is used because the order of elements 
+	//do not matter for making the MixedFruitJuice(as per context given).
+	
+	assign:mixedFruitJuice assign:isMadeOf [
+					rdf:type rdf:Bag ;
+					rdf:_1 <Banana> ;
+					rdf:_2 <Orange> ;
+					rdf:_3 <Pineapple> ;
+					rdf:_4 <Watermelon> ;
+				].
+
+(e)	//3 blanknodes are used to represent information about
+	//the given 3 ingredients.
+	
+	assignO:mixedFruitJuice eg:isMadeOf _:item1.
+	assignO:mixedFruitJuice eg:isMadeOf _:item2.
+	assignO:mixedFruitJuice eg:isMadeOf _:item3.
+
+	_:item1
+		eg:ingredient eg:Orange ;
+		eg:amount "2"^^xsd:Integer .
+
+	_:item2
+		eg:ingredient eg:Pomegranate ;
+		eg:quantity "1"^^xsd:Integer .
+	
+	_:item3
+		eg:ingredient eg:Pineapple ;
+		eg:quantity "1"^^xsd:Integer .
+	
+(f) //2 blanknodes are used to represent information about
+	//the given 2 ingredients.
+	
+	assign:orangeJuice eg:isMadeOf 
+					[ eg:ingredient eg:Orange ;
+					  eg:quantity "3"^^xsd:Integer ].
+	assign:orangeJuice eg:isMadeOf
+					[ eg:ingredient eg:salt ;
+					  eg:quantity "1 tablespoon"^^xsd:String ].
+	
+(g)
+	eg:FruitJuice rdf:type rdfs:Class .
+	eg:MixedFruitJuice rdf:type rdfs:Class .
+	eg:MixedFruitJuice rdfs:subClassOf eg:FruitJuice .
+
+(h)
+	assignO:Fruit rdf:type rdfs:Class .
+	assignO:FruitJuice rdf:type rdfs:Class .
+	assignO:MixedFruitJuice rdf:type rdfs:Class .
+
+(i)
+	eg:juiceMadeOf rdf:type rdf:Property .
+	eg:juiceMadeOfFruit rdf:type rdf:Property .
+
+(j)
+	eg:glassOfJuice eg:costs "INR 25"^^xsd:string.
