@@ -21,3 +21,7 @@ SPARQL
 SHACL
 * Validation using SHACL constraints
 * Triple stores and Property graphs
+
+Open Issues
+* Some open issues on github projects of Semantic Web are handled.
+* Details of issues are in report.
