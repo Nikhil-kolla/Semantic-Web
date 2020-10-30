@@ -8,3 +8,8 @@ RDF Triples
 DNF and Tableau Algorithm
 * Implementation of DNF from scratch
 * Implementation of Tableau Algo from scratch
+
+Protege
+* Usage of Protege
+* Ontologies
+* OWL API
