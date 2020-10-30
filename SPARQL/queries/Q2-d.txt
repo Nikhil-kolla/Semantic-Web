@@ -1,0 +1,135 @@
+{
+  "head": {
+    "vars": [ "movie1" , "movie2" , "director1" , "director2" , "duration" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Comics_of_India" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Oversmartness_Never_Pays" } ,
+        "director1": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "61 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "director1": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "director2": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "duration": { "type": "literal" , "value": "60 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "director1": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "director2": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "duration": { "type": "literal" , "value": "60 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "director1": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "60 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "director1": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "60 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "director1": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "director2": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "duration": { "type": "literal" , "value": "62 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "director1": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "director2": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "duration": { "type": "literal" , "value": "62 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "director1": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "62 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "director1": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "62 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Shutter" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Phobia_2" } ,
+        "director1": { "type": "literal" , "value": "Banjong Pisanthanakun" } ,
+        "director2": { "type": "literal" , "value": "Banjong Pisanthanakun" } ,
+        "duration": { "type": "literal" , "value": "96 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Shutter" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//One_Day" } ,
+        "director1": { "type": "literal" , "value": "Banjong Pisanthanakun" } ,
+        "director2": { "type": "literal" , "value": "Banjong Pisanthanakun" } ,
+        "duration": { "type": "literal" , "value": "96 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Shutter" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Phobia_2" } ,
+        "director1": { "type": "literal" , "value": " Parkpoom Wongpoom" } ,
+        "director2": { "type": "literal" , "value": " Parkpoom Wongpoom" } ,
+        "duration": { "type": "literal" , "value": "96 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "director1": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "director2": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "duration": { "type": "literal" , "value": "65 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "director1": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "director2": { "type": "literal" , "value": "Munjal Shroff" } ,
+        "duration": { "type": "literal" , "value": "65 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "director1": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "65 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "director1": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "65 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Oversmartness_Never_Pays" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Comics_of_India" } ,
+        "director1": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "director2": { "type": "literal" , "value": "Tilak Shetty" } ,
+        "duration": { "type": "literal" , "value": "65 min" }
+      } ,
+      {
+        "movie1": { "type": "uri" , "value": "http://netflix.org//A4Q1//TUNA_GIRL" } ,
+        "movie2": { "type": "uri" , "value": "http://netflix.org//A4Q1//Cultivating_the_Seas:_History_and_Future_of_the_Full-Cycle_Cultured_Kindai_Tuna" } ,
+        "director1": { "type": "literal" , "value": "Mana Yasuda" } ,
+        "director2": { "type": "literal" , "value": "Mana Yasuda" } ,
+        "duration": { "type": "literal" , "value": "90 min" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+2a)
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT DISTINCT ?title ?director ?coDirector FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+Where {
+  ?title Netflix:directoris ?director . FILTER regex(?director,"Shetty") .
+  OPTIONAL { ?title Netflix:directoris ?coDirector . FILTER (!regex(?coDirector,"Shetty")).}
+}
+LIMIT 500
+
+
+2b)
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT ?title ?genere FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+WHERE {
+  ?title Netflix:listed_inis ?genere  
+  FILTER  (regex(?genere,"Comedies")||regex(?genere,"Dramas")||regex(?genere,"Comedy"))
+}
+LIMIT 500
+
+
+
+2c)
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT ?title ?releaseDate ?country ?description FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+WHERE {
+  ?title Netflix:release_yearis ?releaseDate .
+  ?title Netflix:countryis ?country .
+  ?title Netflix:descriptionis ?description .
+  FILTER  ( ?releaseDate >= "2010" && ?releaseDate <= "2020" && regex(?country,"United States")  && regex(?description,"couple"))
+}
+LIMIT 500
+
+2d)
+prefix Netflix: <http://netflix.org//A4Q1//> 
+SELECT distinct ?movie1 ?movie2 ?director1 ?director2 ?duration FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+Where {
+  ?movie1 Netflix:directoris ?director1.
+  OPTIONAL { ?movie2 Netflix:directoris  ?director2  FILTER ((?director2=?director1) && (?movie1 != ?movie2)  && ?director1!="" 
+      && ?director2!="") }
+  ?movie1  Netflix:durationis ?duration Filter ( ?duration>="60" && ?movie1 !='' && ?movie2 !='')
+}
+
+2e)
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT  DISTINCT ?Movie ?Country ?Rating ?genere ?duration FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+Where {
+  ?Movie Netflix:countryis ?Country . FILTER (regex(?Country,"India")||regex(?Country,"United Kingdom")).
+  ?Movie Netflix:ratingis ?Rating .   FILTER regex(?Rating,"TV") .
+  ?Movie Netflix:listed_inis ?genere . FILTER (regex(?genere,"Documentaries")||regex(?genere,"Dramas")) .
+  ?Movie Netflix:durationis ?duration . FILTER regex(?duration,"102 min") .
+}
+LIMIT 500
+
+
+

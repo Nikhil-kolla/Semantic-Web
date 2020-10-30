@@ -1,0 +1,32 @@
+{
+  "head": {
+    "vars": [ "title" , "director" , "coDirector" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Comics_of_India" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_The_Greatest_Trick" } ,
+        "director": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "coDirector": { "type": "literal" , "value": "Munjal Shroff" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Battle_of_Wits" } ,
+        "director": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "coDirector": { "type": "literal" , "value": "Munjal Shroff" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Best_Friends_Forever" } ,
+        "director": { "type": "literal" , "value": " Tilak Shetty" } ,
+        "coDirector": { "type": "literal" , "value": "Munjal Shroff" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Krish_Trish_and_Baltiboy:_Oversmartness_Never_Pays" } ,
+        "director": { "type": "literal" , "value": "Tilak Shetty" }
+      }
+    ]
+  }
+}

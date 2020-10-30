@@ -1,0 +1,11 @@
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT ?title ?releaseDate ?country ?description FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+WHERE {
+  ?title Netflix:release_yearis ?releaseDate .
+  ?title Netflix:countryis ?country .
+  ?title Netflix:descriptionis ?description .
+  FILTER  ( ?releaseDate >= "2010" && ?releaseDate <= "2020" && regex(?country,"United States")  && regex(?description,"couple"))
+}
+LIMIT 500

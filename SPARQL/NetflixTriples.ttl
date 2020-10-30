@@ -1,0 +1,1250 @@
+@prefix Netflix: <http://netflix.org//A4Q1//> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://netflix.org//A4Q1//CÃ©zanne_et_moi>
+        Netflix:castis          " Isabelle Candelier" , " Guillaume Gallienne" , " DÃ©borah FranÃ§ois" , " Alice Pol" , " Sabine AzÃ©ma" , " Freya Mavor" , " Laurent Stocker" , "Guillaume Canet" ;
+        Netflix:countryis       "Belgium" , " France" ;
+        Netflix:date_addedis    " 2017" , "September 7" ;
+        Netflix:descriptionis   "This historical drama explores the long and often volatile friendship of painter Paul CÃ©zanne and writer Ã‰mile Zola" , " who first met as schoolboys." ;
+        Netflix:directoris      "Daniele Thompson" ;
+        Netflix:durationis      "114 min" ;
+        Netflix:listed_inis     " International Movies" , " Independent Movies" , "Dramas" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80152447" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Bobby_Sands:_66_Days
+        Netflix:castis          "" ;
+        Netflix:countryis       "Ireland" , " United Kingdom" ;
+        Netflix:date_addedis    " 2017" , "September 28" ;
+        Netflix:descriptionis   " an imprisoned Irish Republican Army soldier went on a hunger strike that galvanized his movement and made him a controversial global icon." , "In 1981" ;
+        Netflix:directoris      "Brendan Byrne" ;
+        Netflix:durationis      "106 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80126507" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Heretics  Netflix:castis  " Ry Barrett" , " Will King" , " Nina Richmond" , "Nina Kiri" , " Jorja Cadence" ;
+        Netflix:countryis       "Canada" ;
+        Netflix:date_addedis    " 2019" , "September 4" ;
+        Netflix:descriptionis   "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation." ;
+        Netflix:directoris      "Chad Archibald" ;
+        Netflix:durationis      "88 min" ;
+        Netflix:listed_inis     "Horror Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "81173255" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Man_Up  Netflix:castis  " Henry Lloyd-Hughes" , " Ophelia Lovibond" , " Phoebe Waller-Bridge" , " Simon Pegg" , " Rory Kinnear" , " Dean-Charles Chapman" , " Harriet Walter" , " Ken Stott" , " Stephen Campbell Moore" , " Olivia Williams" , " Sharon Horgan" , "Lake Bell" ;
+        Netflix:countryis       " France" , "United Kingdom" ;
+        Netflix:date_addedis    " 2018" , "September 4" ;
+        Netflix:descriptionis   "A single woman seizes an opportunity when" , " she meets a stranger who mistakes her for his blind date." , " while standing under a train station clock" ;
+        Netflix:directoris      "Ben Palmer" ;
+        Netflix:durationis      "88 min" ;
+        Netflix:listed_inis     " International Movies" , " Romantic Movies" , "Comedies" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80052612" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Cultivating_the_Seas:_History_and_Future_of_the_Full-Cycle_Cultured_Kindai_Tuna
+        Netflix:castis          "" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 28" , " 2019" ;
+        Netflix:descriptionis   "An in-depth look at the full-cycle breeding program for bluefin Kindai tuna pioneered by Kinki Universityâ€™s Aqua Culture Research Institute." ;
+        Netflix:directoris      "Mana Yasuda" ;
+        Netflix:durationis      "45 min" ;
+        Netflix:listed_inis     "Documentaries" , " International Movies" ;
+        Netflix:ratingis        "TV-G" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81053893" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_World_We_Make
+        Netflix:castis          " Kevin Sizemore" , " Rose Reid" , "Caleb Castille" , " Gregory Alan Williams" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2019" , "September 4" ;
+        Netflix:descriptionis   " but simmering racism in their small town puts their relationship to the test." , "A teenage equestrian and a local football player for each other" ;
+        Netflix:directoris      "Brian Baugh" ;
+        Netflix:durationis      "108 min" ;
+        Netflix:listed_inis     " Romantic Movies" , "Dramas" ;
+        Netflix:ratingis        "PG" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81078908" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Seventies
+        Netflix:castis          "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2018" , "September 30" ;
+        Netflix:descriptionis   "This series examines 1970s America" , " focusing on the major political and historical landmarks of the decade and the cultural response to those events." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Docuseries" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80030186" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Article_15  Netflix:castis  " Subhrajyoti Barat" , " Sushil Pandey" , " Manoj Pahwa" , " Nassar" , " Aakash Dabhade" , " Mohammed Zeeshan Ayyub" , " Sayani Gupta" , " Isha Talwar" , "Ayushmann Khurrana" , " Kumud Mishra" ;
+        Netflix:countryis       "India" ;
+        Netflix:date_addedis    "September 6" , " 2019" ;
+        Netflix:descriptionis   "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into Indiaâ€™s heartland to investigate a murder." ;
+        Netflix:directoris      "Anubhav Sinha" ;
+        Netflix:durationis      "125 min" ;
+        Netflix:listed_inis     " International Movies" , "Dramas" , " Thrillers" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81154455" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Eighties  Netflix:castis  "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 30" , " 2018" ;
+        Netflix:descriptionis   "This nostalgic documentary series relives the 1980s from a variety of angles" , " exploring its impact on the politics" , " technology and culture of today." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Docuseries" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80128317" ;
+        Netflix:typeis          "TV Show" .
+
+<http://netflix.org//A4Q1//Christiane_Amanpour:_Sex_&_Love_Around_the_World>
+        Netflix:castis          "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 30" , " 2018" ;
+        Netflix:descriptionis   "A contextual" , " big global cities celebrate love and accentuate sex. CNN's Christiane Amanpour reports." , " acculturated dive into how adults in six" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Docuseries" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81011682" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Castle_of_Stars
+        Netflix:castis          " Akarat Nimitchai" , " Jintanutda Lummakanon" , " Yong Armchair" , "Chaiyapol Pupart" , " Kornpassorn Duaysianklao" , " Worrawech Danuwong" , " Ornjira Lamwilai" , " Nattapong Chartpong" , " Keerati Mahapreukpong" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2018" , "September 7" ;
+        Netflix:descriptionis   " each must learn how to live a good life." , "As four couples with different lifestyles go through the ebbs and flows of joy and sorrow" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "International TV Shows" , " Romantic TV Shows" , " TV Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80244601" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Transformers:_Robots_in_Disguise
+        Netflix:castis          " Mitchell Whitfield" , "Will Friedle" , " Constance Zimmer" , " Darren Criss" , " Stuart Allan" , " Khary Payton" , " Ted McGinley" , " Peter Cullen" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 8" , " 2018" ;
+        Netflix:descriptionis   " Bumblebee leads a new Autobot force to protect humankind." , "When a prison ship crash unleashes hundreds of Decepticons on Earth" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Kids' TV" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80058654" ;
+        Netflix:typeis          "TV Show" .
+
+<http://netflix.org//A4Q1//Archibald's_Next_Big_Thing>
+        Netflix:castis          " Chelsea Kane" , " Kari Wahlgren" , " Jordan Fisher" , " Adam Pally" , "Tony Hale" , " Rosamund Pike" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 6" , " 2019" ;
+        Netflix:descriptionis   "Happy-go-lucky chicken Archibald may not remember to do his chores" , " but he never forgets to have fun. After all" , " life's an adventure!" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " TV Comedies" , "Kids' TV" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "80221550" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Transformers_Prime
+        Netflix:castis          " Kevin Michael Richardson" , " Andy Pessoa" , " Tania Gunadi" , " Jeffrey Combs" , " Steve Blum" , " Ernie Hudson" , " Daran Norris" , "Peter Cullen" , " Josh Keaton" , " Frank Welker" , " Sumalee Montano" , " Will Friedle" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 8" , " 2018" ;
+        Netflix:descriptionis   " the Autobots once again protect Earth from the onslaught of the Decepticons and their leader" , " Megatron." , "With the help of three human allies" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Kids' TV" ;
+        Netflix:ratingis        "TV-Y7-FV" ;
+        Netflix:release_yearis  "2013" ;
+        Netflix:show_idis       "70234439" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Our_Souls_at_Night
+        Netflix:castis          " Jane Fonda" , " Judy Greer" , " Iain Armitage" , "Robert Redford" , " Bruce Dern" , " Phyllis Somerville" , " Matthias Schoenaerts" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 29" , " 2017" ;
+        Netflix:descriptionis   "After widowed neighbors Addie and Louis begin sleeping in bed together platonically to alleviate their loneliness" , " a real romance begins to blossom." ;
+        Netflix:directoris      "Ritesh Batra" ;
+        Netflix:durationis      "103 min" ;
+        Netflix:listed_inis     "Dramas" , " Romantic Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80104068" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Sinking_Of_Van_Der_Wijck
+        Netflix:castis          " Gesya Shandy" , " Arzetti Bilbina" , " Pevita Pearce" , " Randy Nidji" , " Reza Rahadian" , " Kevin Andrean" , "Herjunot Ali" ;
+        Netflix:countryis       "Indonesia" ;
+        Netflix:date_addedis    "September 28" , " 2018" ;
+        Netflix:descriptionis   "When a young man leaves home to fulfill the wishes of his late father" , " he meets and falls in love with a woman from a very different background." ;
+        Netflix:directoris      "Sunil Soraya" ;
+        Netflix:durationis      "163 min" ;
+        Netflix:listed_inis     " Romantic Movies" , "Dramas" , " International Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2013" ;
+        Netflix:show_idis       "81002866" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:typeis  a  "TV Show" , "Movie" .
+
+Netflix:Satu_Hari  Netflix:castis  " Mirza Salihovic" , "Sara Ali" , " Hafizul Kamal" , " Rita Rudaini" , " Miller Khan" , " Remy Ishak" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2017" , "September 29" ;
+        Netflix:descriptionis   "A man haunted by his wife's affair moves to Sarajevo and starts to love again" , " until fate forces him to choose between his new life and old loyalty." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " TV Dramas" , "International TV Shows" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "80180449" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Frequency  Netflix:castis  " Mekhi Phifer" , " Anthony Ruivivar" , " Lenny Jacobson" , " Daniel Bonjour" , "Peyton List" , " Riley Smith" , " Devin Kelley" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 4" , " 2017" ;
+        Netflix:descriptionis   "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased" , " estranged father via a time warp." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " TV Dramas" , " TV Mysteries" , "Crime TV Shows" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80113641" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Stonehearst_Asylum
+        Netflix:castis          " Sophie Kennedy Clark" , "Kate Beckinsale" , " Brendan Gleeson" , " SinÃ©ad Cusack" , " Ben Kingsley" , " Jason Flemyng" , " Edmund Kingsley" , " Michael Caine" , " David Thewlis" , " Jim Sturgess" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "In 1899" , " a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient." ;
+        Netflix:directoris      "Brad Anderson" ;
+        Netflix:durationis      "113 min" ;
+        Netflix:listed_inis     " Thrillers" , "Horror Movies" ;
+        Netflix:ratingis        "PG-13" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "70304988" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Most_Assassinated_Woman_in_the_World
+        Netflix:castis          " Jean-Michel Balthazar" , " AndrÃ© Wilms" , " Maya Coline" , " Sissi Duparc" , " Niels Schneider" , "Anna Mouglalis" , " Julie Recoing" , " Michel Fau" , " Eric Godon" , " Constance DollÃ©" ;
+        Netflix:countryis       " United Kingdom" , "Belgium" , " United States" ;
+        Netflix:date_addedis    " 2018" , "September 7" ;
+        Netflix:descriptionis   "In 1930s Paris" , " an actress famous for her gory death scenes at the Grand Guignol Theater contends with a mysterious stalker and ghosts from her past." ;
+        Netflix:directoris      "Franck RibiÃ¨re" ;
+        Netflix:durationis      "102 min" ;
+        Netflix:listed_inis     "Dramas" , " International Movies" , " Thrillers" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80159586" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Manhattan_Romance
+        Netflix:castis          "Tom O'Brien" , " Gaby Hoffmann" , " Zach Grenier" , " Caitlin Fitzgerald" , " Louis Cancelmi" , " Katherine Waterston" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects." ;
+        Netflix:directoris      "Tom O'Brien" ;
+        Netflix:durationis      "98 min" ;
+        Netflix:listed_inis     " Independent Movies" , " Romantic Movies" , "Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "80060297" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:First_and_Last
+        Netflix:castis          "" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 7" , " 2018" ;
+        Netflix:descriptionis   "Take an intimate look at the emotionally charged first and last days of new and soon-to-be released inmates at Georgia's Gwinnett County Jail." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Docuseries" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80190843" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Fabrizio_Copano:_Solo_pienso_en_mi
+        Netflix:castis          "Fabrizio Copano" ;
+        Netflix:countryis       "Chile" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   " family WhatsApp groups and more." , "Fabrizio Copano takes audience participation to the next level in this stand-up set while reflecting on sperm banks" ;
+        Netflix:directoris      " Francisco Schultz" , "Rodrigo Toro" ;
+        Netflix:durationis      "60 min" ;
+        Netflix:listed_inis     "Stand-Up Comedy" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80164077" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:6_Years  Netflix:castis  " Ben Rosenfield" , " Peter Vack" , " Joshua Leonard" , " Jason Newman" , " Lindsay Burdge" , "Taissa Farmiga" , " Dana Wheeler-Nicholson" , " Molly McMichael" , " Jennifer Lafleur" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2015" , "September 8" ;
+        Netflix:descriptionis   " unexpected career opportunities threaten their future." , "As a volatile young couple who have been together for six years approach college graduation" ;
+        Netflix:directoris      "Hannah Fidell" ;
+        Netflix:durationis      "80 min" ;
+        Netflix:listed_inis     " Romantic Movies" , " Independent Movies" , "Dramas" ;
+        Netflix:ratingis        "NR" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80045922" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:City_of_Joy  Netflix:castis  "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 7" , " 2018" ;
+        Netflix:descriptionis   " a center that helps them regain a sense of self and empowerment." , "Women who've been sexually brutalized in war-torn Congo begin to heal at City of Joy" ;
+        Netflix:directoris      "Madeleine Gavin" ;
+        Netflix:durationis      "77 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80203094" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Apaches  Netflix:castis  " Claudia Traisac" , " VerÃ³nica Echegui" , " Eloy AzorÃ­n" , " LucÃ­a JimÃ©nez" , "Alberto Ammann" ;
+        Netflix:countryis       "Spain" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel SÃ¡ez Carral." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " International TV Shows" , " Spanish-Language TV Shows" , "Crime TV Shows" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80163890" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Watchman  Netflix:castis  " Munishkanth" , "G.V. Prakash Kumar" , " Yogi Babu" , " Raj Arjun" , " Suman" , " Samyuktha Hegde" ;
+        Netflix:countryis       "India" ;
+        Netflix:date_addedis    "September 4" , " 2019" ;
+        Netflix:descriptionis   " a young man breaks into a bungalow to steal the cash" , " unprepared for the dog standing guard â€“ or the trouble inside." , "Rushing to pay off a loan shark" ;
+        Netflix:directoris      "A. L. Vijay" ;
+        Netflix:durationis      "93 min" ;
+        Netflix:listed_inis     " Dramas" , " International Movies" , "Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81155784" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Kidnapping_Mr._Heineken
+        Netflix:castis          " Ryan Kwanten" , " Thomas Cocquerel" , " Mark van Eeuwen" , " Jemima West" , " Sam Worthington" , " Anthony Hopkins" , "Jim Sturgess" , " David Dencik" ;
+        Netflix:countryis       "Netherlands" , " United Kingdom" , " Belgium" , " United States" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   " his abductors make the largest ransom demand in history." , "When beer magnate Alfred \"Freddy\" Heineken is kidnapped in 1983" ;
+        Netflix:directoris      "Daniel Alfredson" ;
+        Netflix:durationis      "95 min" ;
+        Netflix:listed_inis     "Action & Adventure" , " International Movies" , " Dramas" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "70299204" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Shutter  Netflix:castis  " Natthaweeranuch Thongmee" , " Sivagorn Muttamara" , " Kachormsak Naruepatr" , "Ananda Everingham" , " Unnop Chanpaibool" , " Achita Sikamana" , " Chachchaya Chalemphol" , " Titikarn Tongprasearth" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    "September 5" , " 2018" ;
+        Netflix:descriptionis   " a couple is haunted by more than just the memory of their deadly choice." , "After killing a young girl in a hit-and-run accident" ;
+        Netflix:directoris      "Banjong Pisanthanakun" , " Parkpoom Wongpoom" ;
+        Netflix:durationis      "96 min" ;
+        Netflix:listed_inis     " International Movies" , "Horror Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2004" ;
+        Netflix:show_idis       "70062814" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Two_Catalonias
+        Netflix:castis          "" ;
+        Netflix:countryis       "Spain" ;
+        Netflix:date_addedis    " 2018" , "September 28" ;
+        Netflix:descriptionis   "Lawmakers and activists with conflicting ideologies speak about the complexities of Catalonia's politics and the fight for its independence from Spain." ;
+        Netflix:directoris      " Gerardo Olivares" , "Ã�lvaro Longoria" ;
+        Netflix:durationis      "117 min" ;
+        Netflix:listed_inis     "Documentaries" , " International Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80992039" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Royal_House_of_Windsor
+        Netflix:castis          "" ;
+        Netflix:countryis       "United Kingdom" ;
+        Netflix:date_addedis    " 2017" , "September 30" ;
+        Netflix:descriptionis   " politics and more." , " this show traces how the British royal family has survived the last 100 years of power struggles" , "Drawing on newly available info" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "British TV Shows" , " Docuseries" , " International TV Shows" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80181555" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Adam_Ruins_Everything
+        Netflix:castis          " Emily Axford" , "Adam Conover" , " Adam Lustick" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 30" , " 2018" ;
+        Netflix:descriptionis   "Education can be fun â€“ and funny. Comedian Adam Conover bursts misconceptions" , " deconstructs topics and leaves with positive takeaways." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "TV Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80996949" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Krish_Trish_and_Baltiboy:_Best_Friends_Forever
+        Netflix:castis          "Damandeep Singh Baggan" , " Deepak Chachra" , " Smita Malhotra" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   "A cat" , " and the Indian regions of Bihar and Rajasthan." , " monkey and donkey team up to narrate folktales about friendship from Northeast India" ;
+        Netflix:directoris      "Munjal Shroff" , " Tilak Shetty" ;
+        Netflix:durationis      "65 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80182596" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Big_Miracle  Netflix:castis  " Rob Riggle" , " Vinessa Shaw" , " Michael Gaston" , " Ted Danson" , " Tim Blake Nelson" , " John Krasinski" , " Kristen Bell" , " Stephen Root" , "Drew Barrymore" , " Dermot Mulroney" ;
+        Netflix:countryis       " United Kingdom" , "United States" ;
+        Netflix:date_addedis    " 2018" , "September 30" ;
+        Netflix:descriptionis   "After a reporter writes about whales trapped in the Arctic Circle" , " the U.S. and U.S.S.R. team up to rescue them in this tale inspired by true events." ;
+        Netflix:directoris      "Ken Kwapis" ;
+        Netflix:durationis      "107 min" ;
+        Netflix:listed_inis     "Children & Family Movies" , " Dramas" ;
+        Netflix:ratingis        "PG" ;
+        Netflix:release_yearis  "2012" ;
+        Netflix:show_idis       "70212504" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Carrie_Pilby  Netflix:castis  " Colin O'Donoghue" , " Gabriel Byrne" , " Nathan Lane" , " Desmin Borges" , "Bel Powley" , " Jason Ritter" , " Vanessa Bayer" , " William Moseley" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 5" ;
+        Netflix:descriptionis   "A socially awkward 19-year-old genius makes big plans to step out of her shell and make a friend" , " get a job and â€“ maybe â€“ even go on a date." ;
+        Netflix:directoris      "Susan Johnson" ;
+        Netflix:durationis      "98 min" ;
+        Netflix:listed_inis     " Dramas" , "Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80147760" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Next_Gen  Netflix:castis  "John Krasinski" , " Michael PeÃ±a" , " Charlyne Yi" , " David Cross" , " Jason Sudeikis" , " Constance Wu" ;
+        Netflix:countryis       " United States" , "China" , " Canada" ;
+        Netflix:date_addedis    " 2018" , "September 7" ;
+        Netflix:descriptionis   "When lonely Mai forms an unlikely bond with a top-secret robot" , " they embark on an intense" , " action-packed adventure to foil the plot of a vicious villain." ;
+        Netflix:directoris      " Joe Ksander" , "Kevin R. Adams" ;
+        Netflix:durationis      "106 min" ;
+        Netflix:listed_inis     "Children & Family Movies" , " Comedies" , " Sci-Fi & Fantasy" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80988892" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Rolling_Papers
+        Netflix:castis          "" ;
+        Netflix:countryis       "United States" , " Uruguay" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   " The Denver Post breaks new ground with a section dedicated to cannabis culture." , "As the newspaper industry takes a hit" ;
+        Netflix:directoris      "Mitch Dickman" ;
+        Netflix:durationis      "79 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80046727" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_3rd_Eye  Netflix:castis  " Citra Prima" , " Shofia Shireen" , " Denny Sumargo" , " Derry Drajat" , "Jessica Mila" , " Voke Victoria" , " Anita Hara" , " Bianca Hello" , " Afdhal Yusman" , " Epy Kusnandar" ;
+        Netflix:countryis       "Indonesia" ;
+        Netflix:date_addedis    " 2018" , "September 28" ;
+        Netflix:descriptionis   "When her little sister claims she sees the dead" , " who opens her own eyes to the vengeful ghosts haunting their childhood home." , " Alia consults a psychic" ;
+        Netflix:directoris      "Rocky Soraya" ;
+        Netflix:durationis      "108 min" ;
+        Netflix:listed_inis     " International Movies" , "Horror Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81016750" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Krish_Trish_and_Baltiboy:_Oversmartness_Never_Pays
+        Netflix:castis          "Rishi Gambhir" , " Deepak Chachra" , " Smita Malhotra" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   " West Bengal and Maharashtra." , "A cat" , " monkey and donkey learn the consequences of cheating through stories from the Indian regions of Rajasthan" ;
+        Netflix:directoris      "Tilak Shetty" ;
+        Netflix:durationis      "65 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80182597" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:I_Fine..._Thank_You..._Love_You
+        Netflix:castis          " Puttachat Pongsuchat" , " Sunny Suwanmethanont" , "Preechaya Pongthananikorn" , " Popetorn Soonthornyanakij" , " Sora Aoi" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    "September 5" , " 2018" ;
+        Netflix:descriptionis   " Yim hires a tutor to teach him English. But things don't go according to plan." , "Desperate to go to the U.S. to win back his girlfriend" ;
+        Netflix:directoris      "Mez Tharatorn" ;
+        Netflix:durationis      "116 min" ;
+        Netflix:listed_inis     " International Movies" , " Romantic Movies" , "Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "80158838" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:PK  Netflix:castis      " Anuskha Sharma" , " Parikshat Sahni" , " Sanjay Dutt" , " Saurabh Shukla" , " Sushant Singh Rajput" , " Boman Irani" , " Rukhsar" , "Aamir Khan" ;
+        Netflix:countryis       "India" ;
+        Netflix:date_addedis    " 2018" , "September 6" ;
+        Netflix:descriptionis   "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India." ;
+        Netflix:directoris      "Rajkumar Hirani" ;
+        Netflix:durationis      "146 min" ;
+        Netflix:listed_inis     " Dramas" , "Comedies" , " International Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "70303496" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Krish_Trish_and_Baltiboy:_Battle_of_Wits
+        Netflix:castis          "Damandeep Singh Baggan" , " Smita Malhotra" , " Deepak Chachra" , " Baba Sehgal" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "An artisan is cheated of his payment" , " a lion of his throne and a brother of his inheritance in these three stories of deception and justice." ;
+        Netflix:directoris      "Munjal Shroff" , " Tilak Shetty" ;
+        Netflix:durationis      "62 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2013" ;
+        Netflix:show_idis       "80182483" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Hell_and_Back
+        Netflix:castis          " Mila Kunis" , " T.J. Miller" , " Rob Riggle" , " Jennifer Coolidge" , " Maria Bamford" , " Danny McBride" , "Nick Swardson" , " Bob Odenkirk" , " John Farley" , " Susan Sarandon" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 6" , " 2018" ;
+        Netflix:descriptionis   "When best friends break a blood oath" , " one of them is cast away to hell" , " and the other two must save him from the misfits of the underworld." ;
+        Netflix:directoris      " Ross R. Shuman" , "Tom Gianas" ;
+        Netflix:durationis      "86 min" ;
+        Netflix:listed_inis     " Comedies" , " Independent Movies" , "Action & Adventure" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80058026" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Suckseed  Netflix:castis  " Pachara Chirathivat" , " Thawat Pornrattanaprasert" , " Nattasha Nauljam" , "Jirayu La-ongmanee" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    " 2018" , "September 5" ;
+        Netflix:descriptionis   "When his boyhood crush Ern returns" , " Ped forms a band with his friend to impress her. Romantic rivalries bloom after the talented Ern joins the group." ;
+        Netflix:directoris      "Chayanop Boonprakob" ;
+        Netflix:durationis      "130 min" ;
+        Netflix:listed_inis     " International Movies" , "Comedies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2011" ;
+        Netflix:show_idis       "80158839" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:No_Tomorrow  Netflix:castis  " Jonathan Langdon" , " Jesse Rath" , "Joshua Sasse" , " Sarayu Blue" , " Amy Pietz" , " Tori Anderson" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 5" , " 2017" ;
+        Netflix:descriptionis   "Her straitjacketed life turned topsy-turvy by hunky Xavier" , " Evie discovers a new freedom â€“ even though her man just might be an end-of-days crackpot." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " TV Comedies" , " TV Dramas" , "Romantic TV Shows" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80113482" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:We_Bare_Bears
+        Netflix:castis          " Bobby Moynihan" , " Demetri Martin" , "Eric Edelstein" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 30" , " 2018" ;
+        Netflix:descriptionis   " modern human world." , " Panda and Ice Bear are three adopted bear brothers struggling against their animal instincts to fit into the civilized" , "Grizzly" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Kids' TV" , " TV Comedies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80116921" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Norm_of_the_North:_King_Sized_Adventure
+        Netflix:castis          " Jonathan Holmes" , " Andrew Toth" , " Jennifer Cameron" , "Alan Marriott" , " Michael Dobson" , " Cole Howard" , " Brian Dobson" , " Lee Tockar" , " Maya Kay" , " Lisa Durupt" ;
+        Netflix:countryis       " South Korea" , "United States" , " India" , " China" ;
+        Netflix:date_addedis    " 2019" , "September 9" ;
+        Netflix:descriptionis   " a polar bear king must take back a stolen artifact from an evil archaeologist first." , "Before planning an awesome wedding for his grandfather" ;
+        Netflix:directoris      "Richard Finn" , " Tim Maltby" ;
+        Netflix:durationis      "90 min" ;
+        Netflix:listed_inis     "Children & Family Movies" , " Comedies" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81145628" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Marc_Maron:_Too_Real
+        Netflix:castis          "Marc Maron" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 5" ;
+        Netflix:descriptionis   "Battle-scarred stand-up comedian Marc Maron unleashes a storm of ideas about meditation" , " documentary films and our weird modern world." , " mortality" ;
+        Netflix:directoris      "Lynn Shelton" ;
+        Netflix:durationis      "70 min" ;
+        Netflix:listed_inis     "Stand-Up Comedy" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80177405" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Sierra_Burgess_Is_A_Loser
+        Netflix:castis          " Alan Ruck" , " Chrissy Metz" , " Mary Pat Gleason" , " Alice Lee" , " RJ Cyler" , " Lea Thompson" , " Kristine Froseth" , " Loretta Devine" , "Shannon Purser" , " Giorgia Whigham" , " Noah Centineo" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2018" , "September 7" ;
+        Netflix:descriptionis   "A wrong-number text sparks a virtual romance between a smart but unpopular teen and a sweet jock who thinks he's talking to a gorgeous cheerleader." ;
+        Netflix:directoris      "Ian Samuels" ;
+        Netflix:durationis      "106 min" ;
+        Netflix:listed_inis     "Comedies" , " Romantic Movies" ;
+        Netflix:ratingis        "PG-13" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80239639" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Runner  Netflix:castis  " Peter Fonda" , " Wendell Pierce" , " Sarah Paulson" , "Nicolas Cage" , " Dana Gourrier" , " Connie Nielsen" , " Bryan Batt" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "A New Orleans politician finds his idealistic plans for rebuilding after a toxic oil spill unraveling thanks to a sex scandal." ;
+        Netflix:directoris      "Austin Stark" ;
+        Netflix:durationis      "90 min" ;
+        Netflix:listed_inis     "Dramas" , " Independent Movies" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80057700" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Jandino:_Whatever_it_Takes
+        Netflix:castis          "Jandino Asporaat" ;
+        Netflix:countryis       "United Kingdom" ;
+        Netflix:date_addedis    "September 9" , " 2016" ;
+        Netflix:descriptionis   "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "94 min" ;
+        Netflix:listed_inis     "Stand-Up Comedy" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80117401" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:TUNA_GIRL  Netflix:castis  " Shuri Tanaka" , " Hiroto Kanai" , "Fuka Koshiba" , " Tom Fujita" , " Hidetoshi Hoshida" , " Takeshi Masu" , " Ryosuke Yusa" , " Takashi Taniguchi" , " Chal Inoue" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2019" , "September 28" ;
+        Netflix:descriptionis   "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy." ;
+        Netflix:directoris      "Mana Yasuda" ;
+        Netflix:durationis      "90 min" ;
+        Netflix:listed_inis     "Dramas" , " International Movies" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81053892" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Lovesick  Netflix:castis  " Nungira Hanwutinanon" , "Kongyingyong Chonlathorn" , " Luangsodsai Anupart" , " Sirikiet Saejea" , " Chindavanich Primrose" , " Nontapan Chuenwarin" , " Charnmanoon Pannin" , " Nuchanart Veerakaarn" , " Ausavaterakul Ausavapat" , " Phumphothingam Nawat" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2018" , "September 3" ;
+        Netflix:descriptionis   "Love and academics get complicated at an all-male college that happens to be located next to an all-female high school." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " TV Dramas" , "International TV Shows" , " Romantic TV Shows" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "80184358" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Fire_Chasers  Netflix:castis  "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "As California's 2016 fire season rages" , " protect homes and save lives in this docuseries." , " brave backcountry firefighters race to put out the flames" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Docuseries" , " Science & Nature TV" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80117902" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:The_Debt_Collector
+        Netflix:castis          " Tony Todd" , "Scott Adkins" , " Vladimir Kulich" , " Rachel Brann" , " Selina Lo" , " Louis Mandylor" , " Michael ParÃ©" ;
+        Netflix:countryis       " United States" , "United Kingdom" ;
+        Netflix:date_addedis    " 2018" , "September 3" ;
+        Netflix:descriptionis   " who pairs him with a veteran thug for a weekend of fisticuffs-fueled debt collection." , "A broke martial arts instructor takes a side gig with a mobster" ;
+        Netflix:directoris      "Jesse V. Johnson" ;
+        Netflix:durationis      "96 min" ;
+        Netflix:listed_inis     "Action & Adventure" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80198585" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Moonwalkers  Netflix:castis  " Kevin Bishop" , "Ron Perlman" , " Rupert Grint" , " Robert Sheehan" , " Eric Lampaert" , " Tom Audenaert" , " Erika Sainte" , " Stephen Campbell Moore" ;
+        Netflix:countryis       "France" , " Belgium" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   "A brain-addled war vet" , " a failing band manager and a Stanley Kubrick impersonator help the CIA construct an epic scam by faking the 1969 moon landing." ;
+        Netflix:directoris      "Antoine Bardou-Jacquet" ;
+        Netflix:durationis      "96 min" ;
+        Netflix:listed_inis     "Action & Adventure" , " International Movies" , " Comedies" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80046728" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Phobia_2  Netflix:castis  " Gacha Plienwithi" , "Jirayu La-ongmanee" , " Suteerush Channukool" , " Charlie Trairat" , " Marsha Wattanapanich" , " Peeratchai Roompol" , " Worrawech Danuwong" , " Nattapong Chartpong" , " Nicole Theriault" , " Chumphorn Thepphithak" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    "September 5" , " 2018" ;
+        Netflix:descriptionis   " Thai horror masters present five supernatural tales of karma in this sequel to the 4bia anthology." , "From disfiguring punishments to festering souls" ;
+        Netflix:directoris      " Visute Poolvoralaks" , " Songyos Sugmakanan" , " Parkpoom Wongpoom" , "Banjong Pisanthanakun" , " Paween Purikitpanya" ;
+        Netflix:durationis      "125 min" ;
+        Netflix:listed_inis     " International Movies" , "Horror Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2009" ;
+        Netflix:show_idis       "70142798" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Love  Netflix:castis    " Aomi Muyock" , " Vincent Maraval" , " Isabelle Nicou" , " BenoÃ®t Debie" , " Klara Kristin" , " DÃ©borah RÃ©vy" , " Juan Saavedra" , " Ugo Fox" , "Karl Glusman" , " Gaspar NoÃ©" ;
+        Netflix:countryis       "France" , " Belgium" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "A man in an unsatisfying marriage recalls the details of an intense past relationship with an ex-girlfriend when he gets word that she may be missing." ;
+        Netflix:directoris      "Gaspar NoÃ©" ;
+        Netflix:durationis      "135 min" ;
+        Netflix:listed_inis     " Dramas" , " Independent Movies" , "Cult Movies" ;
+        Netflix:ratingis        "NR" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80057969" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:ATM  Netflix:castis     " Puttachat Pongsuchat" , " Pongsatorn Jongwilak" , " Thawat Pornrattanaprasert" , " Preechaya Pongthananikorn" , " Sananthachat Thanapatpisal" , " Chaleumpol Tikumpornteerawong" , " Pongkool Suebsung" , "Chantavit Dhanasevi" , " Yanee Tramoth" , " Gornpop Janjaroen" ;
+        Netflix:countryis       "United States" , " Canada" ;
+        Netflix:date_addedis    "September 5" , " 2018" ;
+        Netflix:descriptionis   "When a broken ATM dishes out a fortune" , " a couple who works at the bank vies to see who can recover the most cash â€“ and the loser must find a new job." ;
+        Netflix:directoris      "Mez Tharatorn" ;
+        Netflix:durationis      "122 min" ;
+        Netflix:listed_inis     "Comedies" , " International Movies" , " Romantic Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2012" ;
+        Netflix:show_idis       "80159880" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Ee_Nagaraniki_Emaindi
+        Netflix:castis          " Sushanth Reddy" , "Vishwaksen Naidu" , " Abhinav Gomatam" , " Simran Choudhary" , " Anisha Ambrose" , " Venkatesh Kakumanu" ;
+        Netflix:countryis       "India" ;
+        Netflix:date_addedis    "September 6" , " 2019" ;
+        Netflix:descriptionis   "In Goa and in desperate need of cash" , " four childhood friends get another shot at making their long-abandoned dreams of becoming filmmakers come true." ;
+        Netflix:directoris      "Tharun Bhascker" ;
+        Netflix:durationis      "133 min" ;
+        Netflix:listed_inis     "Comedies" , " International Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81052275" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Single  Netflix:castis  " Rinna Hassim" , " Tinna Harahap" , " Annisa Rawles" , " Dede Yusuf" , " Babe Cabita" , " Dewi Hughes" , " Elvira Devinamira" , " Pandji Pragiwaksono" , " Pevita Pearce" , " Chandra Liow" , "Raditya Dika" ;
+        Netflix:countryis       "Indonesia" ;
+        Netflix:date_addedis    "September 28" , " 2018" ;
+        Netflix:descriptionis   "Unemployed and immature" , " a somewhat pathetic bachelor sets his sights on finding a date for the wedding of his younger" , " more successful brother." ;
+        Netflix:directoris      "Raditya Dika" ;
+        Netflix:durationis      "127 min" ;
+        Netflix:listed_inis     " International Movies" , " Romantic Movies" , "Comedies" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "81002864" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Krish_Trish_and_Baltiboy:_Comics_of_India
+        Netflix:castis          "Damandeep Singh Baggan" , " Smita Malhotra" , " Baba Sehgal" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   " and a king assigns impossible tasks to his minister." , " a demon is released from captivity" , "In three comic-strip-style tales" , " a boy tries to sell wisdom" ;
+        Netflix:directoris      "Tilak Shetty" ;
+        Netflix:durationis      "61 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2012" ;
+        Netflix:show_idis       "80182482" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Black_Panther
+        Netflix:castis          " Forest Whitaker" , " Angela Bassett" , " Stan Lee" , " Martin Freeman" , " Sterling K. Brown" , "Chadwick Boseman" , " Michael B. Jordan" , " John Kani" , " Winston Duke" , " Danai Gurira" , " Andy Serkis" , " David S. Lee" , " Letitia Wright" , " Lupita Nyong'o" , " Daniel Kaluuya" , " Florence Kasumba" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2018" , "September 4" ;
+        Netflix:descriptionis   " the superpowered new leader of the hidden" , " strives to protect his home from enemies old and new." , "T'Challa" , " highly advanced African nation of Wakanda" ;
+        Netflix:directoris      "Ryan Coogler" ;
+        Netflix:durationis      "135 min" ;
+        Netflix:listed_inis     "Action & Adventure" , " Sci-Fi & Fantasy" ;
+        Netflix:ratingis        "PG-13" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80201906" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Act_of_Vengeance
+        Netflix:castis          " Mustafa Sandal" , " Gina Gershon" , " Sharrieff Pugh" , " Mahsun KÄ±rmÄ±zÄ±gÃ¼l" , " Scott William Winters" , "Haluk Bilginer" , " Engin Altan DÃ¼zyatan" , " Danny Glover" , " Robert Patrick" ;
+        Netflix:countryis       "Turkey" , " United States" ;
+        Netflix:date_addedis    "September 29" , " 2018" ;
+        Netflix:descriptionis   "Two Turkish agents are sent to New York City on a mission to capture a notorious terrorist known only as \"Dejjal\" (Arabic for Antichrist)." ;
+        Netflix:directoris      "Mahsun KÄ±rmÄ±zÄ±gÃ¼l" ;
+        Netflix:durationis      "112 min" ;
+        Netflix:listed_inis     "Action & Adventure" , " International Movies" ;
+        Netflix:ratingis        "NR" ;
+        Netflix:release_yearis  "2010" ;
+        Netflix:show_idis       "70233894" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Out_of_Thin_Air
+        Netflix:castis          "" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 29" , " 2017" ;
+        Netflix:descriptionis   "Picking up 40 years after six were convicted for two strange murders in Iceland" , " this chilling documentary proves confessions canâ€™t always be trusted." ;
+        Netflix:directoris      "Dylan Howitt" ;
+        Netflix:durationis      "85 min" ;
+        Netflix:listed_inis     "Documentaries" , " International Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80119349" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Ben_10  Netflix:castis  " Daryl Sabara" , " Roger Craig Smith" , " David Kaye" , " Dwight Schultz" , " Montse Hernandez" , "Tara Strong" , " Todd Haberkorn" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 30" , " 2018" ;
+        Netflix:descriptionis   "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Kids' TV" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80239337" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Kill_Me_If_You_Dare
+        Netflix:castis          " DilÅŸad ÅžimÅŸek" , " Ali YoÄŸurtÃ§uoÄŸlu" , " Seda Bakan" , "Murat Boz" , " AÃ§elya TopaloÄŸlu" , " Ã–zgÃ¼r Emre YÄ±ldÄ±rÄ±m" , " Yosi Mizrahi" , " Seda GÃ¼ven" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2019" , "September 6" ;
+        Netflix:descriptionis   " a couple grows cautious of each other but hit the lottery and decide to stay together â€“ till death do they part." , "Bogged down with money problems" ;
+        Netflix:directoris      "Åženol SÃ¶nmez" ;
+        Netflix:durationis      "100 min" ;
+        Netflix:listed_inis     " Romantic Movies" , "Comedies" , " International Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81132437" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Amanda_Knox  Netflix:castis  "" ;
+        Netflix:countryis       "Denmark" , " United States" ;
+        Netflix:date_addedis    "September 30" , " 2016" ;
+        Netflix:descriptionis   "She was twice convicted and acquitted of murder. Amanda Knox and the people closest to her case speak out in this illuminating documentary." ;
+        Netflix:directoris      "Rod Blackhurst" , " Brian McGinn" ;
+        Netflix:durationis      "92 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "80081155" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Spy  Netflix:castis  "Sacha Baron Cohen" , " Alexander Siddig" , " Noah Emmerich" , " Waleed Zuaiter" , " Hadar Ratzon Rotem" , " Nassim Lyes" ;
+        Netflix:countryis       "France" ;
+        Netflix:date_addedis    " 2019" , "September 6" ;
+        Netflix:descriptionis   " Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous" , "In the 1960s" , " years-long mission to spy for Mossad." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " TV Dramas" , " TV Thrillers" , "International TV Shows" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "80178151" ;
+        Netflix:typeis          "TV Show" .
+
+<http://netflix.org//A4Q1//#realityhigh>
+        Netflix:castis          " Peter Gilroy" , " Kate Walsh" , " Jake Borelli" , " Keith Powers" , " Rebekah Graf" , " Kid Ink" , " John Michael Higgins" , " Alicia Sanz" , " Anne Winters" , " Yousef Erakat" , " Patrick Davis" , "Nesta Cooper" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   "When nerdy high schooler Dani finally attracts the interest of her longtime crush" , " she lands in the cross hairs of his ex" , " a social media celebrity." ;
+        Netflix:directoris      "Fernando Lebrija" ;
+        Netflix:durationis      "99 min" ;
+        Netflix:listed_inis     "Comedies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80125979" ;
+        Netflix:typeis          "Movie" .
+
+<http://netflix.org//A4Q1//JoaquÃ­n_Reyes:_Una_y_no_mÃ¡s>
+        Netflix:castis          "JoaquÃ­n Reyes" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   " bathroom habits" , "Comedian and celebrity impersonator JoaquÃ­n Reyes decides to be his zesty self for a night of stories about buses" , " royalty and more." ;
+        Netflix:directoris      "JosÃ© Miguel Contreras" ;
+        Netflix:durationis      "78 min" ;
+        Netflix:listed_inis     "Stand-Up Comedy" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80169755" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Hard_Tide  Netflix:castis  " Beverly Hills" , "Nathanael Wiseman" , " Mem Ferda" , " Alexandra Newick" , " Oliver Stark" , " Andy Lucas" , " Kat Gellin" , " Ralph Brown" ;
+        Netflix:countryis       "United Kingdom" ;
+        Netflix:date_addedis    " 2017" , "September 6" ;
+        Netflix:descriptionis   "A drug dealer who's been emulating his father's successful criminal career is forced to go on the run with a young girl in this fact-based thriller." ;
+        Netflix:directoris      "Robert Osman" , " Nathanael Wiseman" ;
+        Netflix:durationis      "79 min" ;
+        Netflix:listed_inis     " Independent Movies" , "Dramas" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80162141" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Animal_World  Netflix:castis  " Su Ke" , "Li Yi Feng" , " Michael Douglas" , " Ge Wang" , " Keanu Chi" , " Zhang Jungyi" , " Bingkun Cao" , " Yijuan Li" , " Zhou Dongyu" ;
+        Netflix:countryis       "China" ;
+        Netflix:date_addedis    " 2018" , "September 28" ;
+        Netflix:descriptionis   "An unlucky" , " debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host." ;
+        Netflix:directoris      "Han Yan" ;
+        Netflix:durationis      "130 min" ;
+        Netflix:listed_inis     "Action & Adventure" , " Sci-Fi & Fantasy" , " International Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81004470" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Laddaland  Netflix:castis  " Athipich Chutiwatkajornchai" , " Deuntem Salitul" , " Sahajak Boonthanakit" , " Sutatta Udomsilp" , "Saharat Sangkapreecha" , " Pok Piyatida Woramusik" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    "September 7" , " 2018" ;
+        Netflix:descriptionis   " they encounter a series of paranormal events that drive them to the edge of insanity." , "When a family moves into an upscale housing development" ;
+        Netflix:directoris      "Sopon Sukdapisit" ;
+        Netflix:durationis      "112 min" ;
+        Netflix:listed_inis     "Horror Movies" , " International Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2011" ;
+        Netflix:show_idis       "70241607" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:5CM  Netflix:castis     " Raline Shah" , " Fedi Nuril" , " Firrina Sinatrya" , " Didi Petet" , " Saykoji" , " Denny Sumargo" , " Pevita Pearce" , "Herjunot Ali" ;
+        Netflix:countryis       "Indonesia" ;
+        Netflix:date_addedis    "September 28" , " 2018" ;
+        Netflix:descriptionis   "Five friends embark on a mission to climb the highest peak in Java" , " overcoming obstacles on the way and discovering the true meaning of friendship." ;
+        Netflix:directoris      "Rizal Mantovani" ;
+        Netflix:durationis      "126 min" ;
+        Netflix:listed_inis     "Dramas" , " International Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2012" ;
+        Netflix:show_idis       "81002850" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Nineties  Netflix:castis  "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 30" , " 2018" ;
+        Netflix:descriptionis   "This U.S.-focused series dives into the cultural and political changes that swept the last decade of the 20th century. Executive produced by Tom Hanks." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "Docuseries" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "81027384" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Saawan  Netflix:castis  "Karam Hussain" , " Najiba Faiz" , " Sohail Malik" , " Saleem Mairaj" , " Daniyal Yousuf" , " Ali Hafiz" , " Imran Aslam" , " Arif Bahlim" ;
+        Netflix:countryis       "Pakistan" ;
+        Netflix:date_addedis    " 2019" , "September 4" ;
+        Netflix:descriptionis   " a young boy with polio embarks on a journey to connect with his mother. Based on a true story." , "Outcast from society and left to die in the wilderness" ;
+        Netflix:directoris      "Farhan Alam" ;
+        Netflix:durationis      "128 min" ;
+        Netflix:listed_inis     " International Movies" , " Independent Movies" , "Dramas" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "81160036" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:One_Day  Netflix:castis  " Somyos Matures" , " Kaz Sawamura" , " Rermthon Kemapech" , " Theerapat Sajakul" , " Sutthatip Wutichaipradit" , " Kris Srepoomseth" , "Chantavit Dhanasevi" , " Prim Bulakul" , " Nittha Jirayungyurn" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    " 2018" , "September 5" ;
+        Netflix:descriptionis   "When his colleague (and crush) temporarily loses her memory" , " an overlooked geek seizes the chance to make an impression before she remembers again." ;
+        Netflix:directoris      "Banjong Pisanthanakun" ;
+        Netflix:durationis      "135 min" ;
+        Netflix:listed_inis     "Dramas" , " International Movies" , " Romantic Movies" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2016" ;
+        Netflix:show_idis       "81016045" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:The_Mayor  Netflix:castis  " Do-won Kwak" , "Min-sik Choi" , " Mi-ran Ra" , " Hye-young Ryu" , " So-ri Moon" , " Eun-kyung Shim" , " Byeong-eun Park" , " Ki Hong Lee" , " Joo-yeon Lee" , " Sun-gyu Jin" ;
+        Netflix:countryis       "South Korea" ;
+        Netflix:date_addedis    "September 30" , " 2017" ;
+        Netflix:descriptionis   " the incumbent mayor of Seoul runs for an unprecedented third term â€“ and will stop at nothing to keep his secrets hidden." , "With the presidency in mind" ;
+        Netflix:directoris      "Park In-je" ;
+        Netflix:durationis      "130 min" ;
+        Netflix:listed_inis     "Dramas" , " International Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80187061" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Krish_Trish_and_Baltiboy:_Part_II
+        Netflix:castis          " Smita Malhotra" , "Damandeep Singh Baggan" , " Baba Sehgal" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   " two monkeys' foolishness and a villager's encounter with a demon." , "Animal minstrels narrate stories about a monkey's friendship with a crocodile" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "58 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2010" ;
+        Netflix:show_idis       "80182481" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Mak_Cun  Netflix:castis  " Nora Danish" , " Rahim Razali" , "Erma Fatima" , " Umie Aida" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2017" , "September 29" ;
+        Netflix:descriptionis   "A woman with an entrepreneurial spirit takes life into her own hands by starting a beauty cream business that inspires other women to take chances." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     "International TV Shows" , " TV Comedies" , " TV Dramas" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80163293" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Elstree_1976  Netflix:castis  "Paul Blake" , " Garrick Hagon" , " Jeremy Bulloch" , " Angus MacInnes" , " Laurie Goode" , " Anthony Forrest" , " John Chapman" , " David Prowse" , " Pam Rose" , " Derek Lyons" ;
+        Netflix:countryis       "United Kingdom" ;
+        Netflix:date_addedis    " 2016" , "September 6" ;
+        Netflix:descriptionis   "Then and now footage of bit players who appeared in \"Star Wars\" tells the story of how the film and its legions of fans changed their lives forever." ;
+        Netflix:directoris      "Jon Spira" ;
+        Netflix:durationis      "102 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80095641" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Care_of_Kancharapalem
+        Netflix:castis          " Radha Bessy" , " Praneetha Patnaik" , "Subba Rao Vepada" , " Karthik Rathnam" , " Kesava Karri" , " Praveena Paruchuri" , " Nithyasri Goru" , " Mohan Bhagath" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 6" , " 2019" ;
+        Netflix:descriptionis   " religion and status unfold in a small Indian town." , "From a schoolboyâ€™s crush to a middle-aged bachelorâ€™s office romance" , " four love stories spanning age" ;
+        Netflix:directoris      "Maha Venkatesh" ;
+        Netflix:durationis      "142 min" ;
+        Netflix:listed_inis     "Comedies" , " Independent Movies" , " Dramas" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81113928" ;
+        Netflix:typeis          "Movie" .
+
+<http://netflix.org//A4Q1//Paul_Hollywood's_Big_Continental_Road_Trip>
+        Netflix:castis          "Paul Hollywood" ;
+        Netflix:countryis       "United Kingdom" ;
+        Netflix:date_addedis    "September 29" , " 2017" ;
+        Netflix:descriptionis   "Gear up for a fast-paced journey as celebrity chef and avid auto enthusiast Paul Hollywood takes in the cars and culture of France" , " Italy and Germany." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " Docuseries" , "British TV Shows" , " International TV Shows" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80199032" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Lessons_from_a_School_Shooting:_Notes_from_Dunblane
+        Netflix:castis          "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 28" , " 2018" ;
+        Netflix:descriptionis   " Scotland" , " the other from Newtown" , " Connecticut â€“ bond over school tragedies that occurred 16 years apart." , "Two priests â€“ one from Dunblane" ;
+        Netflix:directoris      "Kim A. Snyder" ;
+        Netflix:durationis      "24 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-PG" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81001809" ;
+        Netflix:typeis          "Movie" .
+
+<http://netflix.org//A4Q1//Gerald's_Game>
+        Netflix:castis          "Carla Gugino" , " Henry Thomas" , " Bruce Greenwood" , " Carel Struycken" , " Chiara Aurelia" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 29" ;
+        Netflix:descriptionis   " dark secrets and a dire choice." , " Jessie â€“ handcuffed to a bed in a remote lake house â€“ faces warped visions" , "When her husband's sex game goes wrong" ;
+        Netflix:directoris      "Mike Flanagan" ;
+        Netflix:durationis      "103 min" ;
+        Netflix:listed_inis     " Thrillers" , "Horror Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80128722" ;
+        Netflix:typeis          "Movie" .
+
+<http://netflix.org//A4Q1//Bangkok_Traffic_(Love)_Story>
+        Netflix:castis          " Taksaorn Paksukcharern" , " Panissara Phimpru" , "Theeradej Wongpuapan" , " Sirin Horwang" , " Kazuki Yano" , " Charlie Trairat" , " Ungsumalynn Sirapatsakmetha" ;
+        Netflix:countryis       "Thailand" ;
+        Netflix:date_addedis    "September 5" , " 2018" ;
+        Netflix:descriptionis   "After an encounter with an engineer working the night shift for the city train" , " a 30-year-old woman struggles against all odds to pursue true love." ;
+        Netflix:directoris      "Adisorn Tresirikasem" ;
+        Netflix:durationis      "126 min" ;
+        Netflix:listed_inis     " International Movies" , "Comedies" , " Romantic Movies" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2009" ;
+        Netflix:show_idis       "81016044" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Made_in_Mexico
+        Netflix:castis          "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    "September 28" , " 2018" ;
+        Netflix:descriptionis   " envy and personal struggles." , " but a peek behind the curtain reveals a tangled web of intrigue" , "These Mexico City socialites may lead opulent lives" ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "1 Season" ;
+        Netflix:listed_inis     " Reality TV" , " Spanish-Language TV Shows" , "International TV Shows" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80201933" ;
+        Netflix:typeis          "TV Show" .
+
+Netflix:Automata  Netflix:castis  " Tim McInnerny" , " Dylan McDermott" , " Christa Campbell" , "Antonio Banderas" , " Andy Nyman" , " David Ryall" , " Melanie Griffith" , " Birgitte Hjort SÃ¸rensen" , " Robert Forster" ;
+        Netflix:countryis       " Canada" , " United States" , "Bulgaria" , " Spain" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   " an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy." , "In a dystopian future" ;
+        Netflix:directoris      "Gabe IbÃ¡Ã±ez" ;
+        Netflix:durationis      "110 min" ;
+        Netflix:listed_inis     "International Movies" , " Sci-Fi & Fantasy" , " Thrillers" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "70304989" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Krish_Trish_and_Baltiboy:_The_Greatest_Trick
+        Netflix:castis          " Baba Sehgal" , " Smita Malhotra" , "Damandeep Singh Baggan" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2017" , "September 8" ;
+        Netflix:descriptionis   " and a kind man who loses everything." , " two greedy courtiers" , "The consequences of trickery are explored in stories involving an inconsiderate husband" ;
+        Netflix:directoris      "Munjal Shroff" , " Tilak Shetty" ;
+        Netflix:durationis      "60 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2013" ;
+        Netflix:show_idis       "80182621" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Domino  Netflix:castis  " Guy Pearce" , " Eriq Ebouaney" , " Paprika Steen" , " Carice van Houten" , " Helena Kaittani" , " Mohammed Azaay" , " SÃ¸ren Malling" , "Nikolaj Coster-Waldau" ;
+        Netflix:countryis       " Belgium" , " France" , " Netherlands" , " Italy" , "Denmark" ;
+        Netflix:date_addedis    "September 28" , " 2019" ;
+        Netflix:descriptionis   "A Copenhagen police officer hunts for the man who attacked his partner" , " only to stumble into a high-stakes game of espionage." ;
+        Netflix:directoris      "Brian De Palma" ;
+        Netflix:durationis      "89 min" ;
+        Netflix:listed_inis     " Thrillers" , "International Movies" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "80200087" ;
+        Netflix:typeis          "Movie" .
+
+<http://netflix.org//A4Q1//Monster_High:_Boo_York,_Boo_York>
+        Netflix:castis          " Wendee Lee" , " Celeste Henderson" , " Rachel Staman" , " Laura Bailey" , " America Young" , " TJ Smith" , "Karen Strassman" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2015" , "September 29" ;
+        Netflix:descriptionis   "Cleo is invited to a gala in the big city celebrating a magical comet and brings her best friends along. But the sinister Nefera has other plans." ;
+        Netflix:directoris      "William Lau" ;
+        Netflix:durationis      "72 min" ;
+        Netflix:listed_inis     "Children & Family Movies" , " Music & Musicals" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2015" ;
+        Netflix:show_idis       "80019931" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:American_Factory:_A_Conversation_with_the_Obamas
+        Netflix:castis          " Steven Bognar" , " Michelle Obama" , " Julia Reichert" , "President Barack Obama" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    " 2019" , "September 5" ;
+        Netflix:descriptionis   "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "10 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-G" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81176188" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Good_People  Netflix:castis  " Diarmaid Murtagh" , " Diana Hardcastle" , " Omar Sy" , " Sam Spruell" , "James Franco" , " Tom Wilkinson" , " Michael Jibson" , " Anna Friel" , " Oliver Dimsdale" , " Thomas Arnold" , " Kate Hudson" ;
+        Netflix:countryis       " United Kingdom" , "United States" , " Sweden" , " Denmark" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." ;
+        Netflix:directoris      "Henrik Ruben Genz" ;
+        Netflix:durationis      "90 min" ;
+        Netflix:listed_inis     " Thrillers" , "Action & Adventure" ;
+        Netflix:ratingis        "R" ;
+        Netflix:release_yearis  "2014" ;
+        Netflix:show_idis       "70304990" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Krish_Trish_and_Baltiboy
+        Netflix:castis          " Baba Sehgal" , " Smita Malhotra" , "Damandeep Singh Baggan" ;
+        Netflix:countryis       "" ;
+        Netflix:date_addedis    "September 8" , " 2017" ;
+        Netflix:descriptionis   "A team of minstrels" , " narrate folktales from the Indian regions of Rajasthan" , " cat and donkey" , " including a monkey" , " Kerala and Punjab." ;
+        Netflix:directoris      "" ;
+        Netflix:durationis      "58 min" ;
+        Netflix:listed_inis     "Children & Family Movies" ;
+        Netflix:ratingis        "TV-Y7" ;
+        Netflix:release_yearis  "2009" ;
+        Netflix:show_idis       "80182480" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Hold_the_Dark
+        Netflix:castis          " Jonathan Whitesell" , " Macon Blair" , " Peter McRobbie" , " Tantoo Cardinal" , "Jeffrey Wright" , " Riley Keough" , " Alexander SkarsgÃ¥rd" , " James Badge Dale" , " Julian Black Antelope" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2018" , "September 28" ;
+        Netflix:descriptionis   " but he soon finds himself swept into a chilling mystery." , " a naturalist hunts for wolves blamed for killing a local boy" , "In the grim Alaskan winter" ;
+        Netflix:directoris      "Jeremy Saulnier" ;
+        Netflix:durationis      "126 min" ;
+        Netflix:listed_inis     " Dramas" , "Action & Adventure" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "80157072" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Long_Shot  Netflix:castis  "" ;
+        Netflix:countryis       "United States" ;
+        Netflix:date_addedis    " 2017" , "September 29" ;
+        Netflix:descriptionis   " he builds his case for innocence around raw footage from a popular TV show. A documentary." , "When Juan Catalan is arrested for a murder he didn't commit" ;
+        Netflix:directoris      "Jacob LaMendola" ;
+        Netflix:durationis      "40 min" ;
+        Netflix:listed_inis     "Documentaries" ;
+        Netflix:ratingis        "TV-14" ;
+        Netflix:release_yearis  "2017" ;
+        Netflix:show_idis       "80182115" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Mo_Gilligan:_Momentum
+        Netflix:castis          "Mo Gilligan" ;
+        Netflix:countryis       "United Kingdom" ;
+        Netflix:date_addedis    "September 30" , " 2019" ;
+        Netflix:descriptionis   "Comedian Mo Gilligan blends smooth moves and sharp humor as he riffs on humble beginnings" , " family dynamics and the complex art of dancing in the club." ;
+        Netflix:directoris      "Chris Howe" ;
+        Netflix:durationis      "64 min" ;
+        Netflix:listed_inis     "Stand-Up Comedy" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2019" ;
+        Netflix:show_idis       "81054495" ;
+        Netflix:typeis          "Movie" .
+
+Netflix:Paradise_Lost
+        Netflix:castis          " Felipe Abib" , " Jaloo" , " Marjorie Estiano" , " Julia Konrad" , "JÃºlio Andrade" , " Erasmo Carlos" , " Hermila Guedes" , " Seu Jorge" , " Lee Taylor" , " Malu Galli" , " Humberto CarrÃ£o" ;
+        Netflix:countryis       "Brazil" ;
+        Netflix:date_addedis    "September 29" , " 2018" ;
+        Netflix:descriptionis   " and grows closer to the family of misfit singers that perform there." , "A cop moonlights as the bodyguard for a young drag queen at a nightclub" ;
+        Netflix:directoris      "Monique Gardenberg" ;
+        Netflix:durationis      "111 min" ;
+        Netflix:listed_inis     " Independent Movies" , "Dramas" , " International Movies" ;
+        Netflix:ratingis        "TV-MA" ;
+        Netflix:release_yearis  "2018" ;
+        Netflix:show_idis       "81011955" ;
+        Netflix:typeis          "Movie" .

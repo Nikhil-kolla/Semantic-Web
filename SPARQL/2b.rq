@@ -1,0 +1,9 @@
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT ?title ?genere FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+WHERE {
+  ?title Netflix:listed_inis ?genere  
+  FILTER  (regex(?genere,"Comedies")||regex(?genere,"Dramas")||regex(?genere,"Comedy"))
+}
+LIMIT 500

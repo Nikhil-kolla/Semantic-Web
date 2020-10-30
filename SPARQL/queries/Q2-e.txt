@@ -1,0 +1,23 @@
+{
+  "head": {
+    "vars": [ "Movie" , "Country" , "Rating" , "genere" , "duration" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "Movie": { "type": "uri" , "value": "http://netflix.org//A4Q1//Elstree_1976" } ,
+        "Country": { "type": "literal" , "value": "United Kingdom" } ,
+        "Rating": { "type": "literal" , "value": "TV-PG" } ,
+        "genere": { "type": "literal" , "value": "Documentaries" } ,
+        "duration": { "type": "literal" , "value": "102 min" }
+      } ,
+      {
+        "Movie": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_Most_Assassinated_Woman_in_the_World" } ,
+        "Country": { "type": "literal" , "value": " United Kingdom" } ,
+        "Rating": { "type": "literal" , "value": "TV-MA" } ,
+        "genere": { "type": "literal" , "value": "Dramas" } ,
+        "duration": { "type": "literal" , "value": "102 min" }
+      }
+    ]
+  }
+}

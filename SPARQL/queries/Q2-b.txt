@@ -1,0 +1,245 @@
+{
+  "head": {
+    "vars": [ "title" , "genere" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//ATM" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Castle_of_Stars" } ,
+        "genere": { "type": "literal" , "value": " TV Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//5CM" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//I_Fine..._Thank_You..._Love_You" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Hard_Tide" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Kidnapping_Mr._Heineken" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Man_Up" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Big_Miracle" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Moonwalkers" } ,
+        "genere": { "type": "literal" , "value": " Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Suckseed" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Mak_Cun" } ,
+        "genere": { "type": "literal" , "value": " TV Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Mak_Cun" } ,
+        "genere": { "type": "literal" , "value": " TV Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Satu_Hari" } ,
+        "genere": { "type": "literal" , "value": " TV Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Lovesick" } ,
+        "genere": { "type": "literal" , "value": " TV Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Hell_and_Back" } ,
+        "genere": { "type": "literal" , "value": " Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Love" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//6_Years" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Single" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Manhattan_Romance" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Bangkok_Traffic_(Love)_Story" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//PK" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//PK" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_Runner" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_Sinking_Of_Van_Der_Wijck" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//One_Day" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Ee_Nagaraniki_Emaindi" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Saawan" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_World_We_Make" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//No_Tomorrow" } ,
+        "genere": { "type": "literal" , "value": " TV Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//No_Tomorrow" } ,
+        "genere": { "type": "literal" , "value": " TV Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//#realityhigh" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//CÃ©zanne_et_moi" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//JoaquÃ­n_Reyes:_Una_y_no_mÃ¡s" } ,
+        "genere": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Our_Souls_at_Night" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_Most_Assassinated_Woman_in_the_World" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Frequency" } ,
+        "genere": { "type": "literal" , "value": " TV Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Paradise_Lost" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Carrie_Pilby" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Carrie_Pilby" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Marc_Maron:_Too_Real" } ,
+        "genere": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Hold_the_Dark" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//We_Bare_Bears" } ,
+        "genere": { "type": "literal" , "value": " TV Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Next_Gen" } ,
+        "genere": { "type": "literal" , "value": " Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Care_of_Kancharapalem" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Care_of_Kancharapalem" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_Mayor" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Sierra_Burgess_Is_A_Loser" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Article_15" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//TUNA_GIRL" } ,
+        "genere": { "type": "literal" , "value": "Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Norm_of_the_North:_King_Sized_Adventure" } ,
+        "genere": { "type": "literal" , "value": " Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Mo_Gilligan:_Momentum" } ,
+        "genere": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Adam_Ruins_Everything" } ,
+        "genere": { "type": "literal" , "value": "TV Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Archibald's_Next_Big_Thing" } ,
+        "genere": { "type": "literal" , "value": " TV Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Kill_Me_If_You_Dare" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Fabrizio_Copano:_Solo_pienso_en_mi" } ,
+        "genere": { "type": "literal" , "value": "Stand-Up Comedy" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Watchman" } ,
+        "genere": { "type": "literal" , "value": " Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Watchman" } ,
+        "genere": { "type": "literal" , "value": "Comedies" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//The_Spy" } ,
+        "genere": { "type": "literal" , "value": " TV Dramas" }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Jandino:_Whatever_it_Takes" } ,
+        "genere": { "type": "literal" , "value": "Stand-Up Comedy" }
+      }
+    ]
+  }
+}

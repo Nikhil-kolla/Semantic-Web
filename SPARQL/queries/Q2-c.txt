@@ -1,0 +1,27 @@
+{
+  "head": {
+    "vars": [ "title" , "releaseDate" , "country" , "description" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//ATM" } ,
+        "releaseDate": { "type": "literal" , "value": "2012" } ,
+        "country": { "type": "literal" , "value": "United States" } ,
+        "description": { "type": "literal" , "value": " a couple who works at the bank vies to see who can recover the most cash â\u20AC\u201C and the loser must find a new job." }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//Good_People" } ,
+        "releaseDate": { "type": "literal" , "value": "2014" } ,
+        "country": { "type": "literal" , "value": "United States" } ,
+        "description": { "type": "literal" , "value": "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." }
+      } ,
+      {
+        "title": { "type": "uri" , "value": "http://netflix.org//A4Q1//6_Years" } ,
+        "releaseDate": { "type": "literal" , "value": "2015" } ,
+        "country": { "type": "literal" , "value": "United States" } ,
+        "description": { "type": "literal" , "value": "As a volatile young couple who have been together for six years approach college graduation" }
+      }
+    ]
+  }
+}

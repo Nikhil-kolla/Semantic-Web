@@ -1,0 +1,11 @@
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT  DISTINCT ?Movie ?Country ?Rating ?genere ?duration FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+Where {
+  ?Movie Netflix:countryis ?Country . FILTER (regex(?Country,"India")||regex(?Country,"United Kingdom")).
+  ?Movie Netflix:ratingis ?Rating .   FILTER regex(?Rating,"TV") .
+  ?Movie Netflix:listed_inis ?genere . FILTER (regex(?genere,"Documentaries")||regex(?genere,"Dramas")) .
+  ?Movie Netflix:durationis ?duration . FILTER regex(?duration,"102 min") .
+}
+LIMIT 500

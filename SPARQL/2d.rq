@@ -1,0 +1,9 @@
+prefix Netflix: <http://netflix.org//A4Q1//> 
+SELECT distinct ?movie1 ?movie2 ?director1 ?director2 ?duration FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+Where {
+  ?movie1 Netflix:directoris ?director1.
+  OPTIONAL { ?movie2 Netflix:directoris  ?director2  FILTER ((?director2=?director1) && (?movie1 != ?movie2)  && ?director1!="" 
+      && ?director2!="") }
+  ?movie1  Netflix:durationis ?duration Filter ( ?duration>="60" && ?movie1 !='' && ?movie2 !='')
+}

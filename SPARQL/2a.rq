@@ -1,0 +1,9 @@
+prefix Netflix: <http://netflix.org//A4Q1//> 
+
+SELECT DISTINCT ?title ?director ?coDirector FROM <http://iiitd.ac.in/sweb/MT19123/newmoviesgraph> 
+FROM <http://iiitd.ac.in/sweb/MT19123/oldmoviesgraph>
+Where {
+  ?title Netflix:directoris ?director . FILTER regex(?director,"Shetty") .
+  OPTIONAL { ?title Netflix:directoris ?coDirector . FILTER (!regex(?coDirector,"Shetty")).}
+}
+LIMIT 500
